@@ -1,0 +1,252 @@
+<!--
+=========================================================
+* * Black Dashboard - v1.0.1
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/black-dashboard
+* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <title>
+    Air Quality Dashboard
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <!-- Nucleo Icons -->
+  <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="../assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="../assets/demo/demo.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css">
+
+  <style>
+    .main-panel>.content {
+      padding: 30px 30px 0px 30px;
+    }
+
+    select option { color: rgb(140, 0, 255); }
+  </style>
+</head>
+
+<body class="">
+  <div class="wrapper">
+    <div class="main-panel">
+      <!-- I removed wrapper class and main-panel-->
+      <div class="content">
+        <div class="row">
+          <div class="col-8">
+            <div class="card card-chart h-100">
+              <div class="card-header ">
+                <div class="row">
+                  <div class="col-sm-6 text-left">
+                    <h4 class="card-category">Air Quality Germany</h4>
+                  </div>
+                </div>
+                <div class="card-body">
+                    <div id="main-map" style="height: 600px";></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="row">
+              <div class="card card-chart">
+                <div class="card-header ">
+                  <div class="row">
+                    <div class="col-sm-6 text-left">
+                      <h5 class="card-category">Air Pollutants</h5>
+                      <h2 class="card-title">Weekly Levels</h2>
+                    </div>
+                    <div class="col-sm-6">
+                      <select class='form-control' onchange="selectDataset(this);"> <!--this denotes reference of dom element-->
+                        <option value="no2_level">no2</option>
+                        <option value="pm2_5_level">pm2.5</option>
+                        <option value="pm10_level">pm10</option>
+                      </select> <!--this is called selectbox or combobox or dropdown-->
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="chart-area">
+                    <div id="chartBig1" style="height:200px"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="card card-chart mb-0">
+                <div class="card-header">
+                  <h5 class="card-category">Air Quality</h5>
+                  <h3 class="card-title" id="aqi"></h3>
+                </div>
+                <div class="card-body pl-5">
+                  <h6 class="pb-3">no2: <span id ='no2'></span></h6>
+                  <h6 class="pb-3">pm2.5: <span id = 'pm2_5'></span></h6>
+                  <h6 class="pb-3">pm10: <span id = 'pm10'></span></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="../assets/js/core/jquery.min.js"></script>
+  <script src="../assets/js/core/popper.min.js"></script>
+  <script src="../assets/js/core/bootstrap.min.js"></script>
+  <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!--  Google Maps Plugin    -->
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Chart JS -->
+  <script src="../assets/js/plugins/chartjs.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="../assets/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="../assets/js/black-dashboard.min.js?v=1.0.0"></script>
+  <!-- Black Dashboard DEMO methods, don't include it in your project! -->
+  <script src="../assets/demo/demo.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="//cdn.amcharts.com/lib/4/core.js"></script>
+  <script src="//cdn.amcharts.com/lib/4/charts.js"></script>
+  <script src="//www.amcharts.com/lib/4/themes/dark.js"></script>
+  <script src="https://github.com/evanplaice/jquery-csv/blob/main/src/jquery.csv.js"></script>
+  <script src="mask.js"></script>
+  <script>
+    const map = L.map('main-map').setView([51.288690620342415, 10.190006746243379], 6);
+    const layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors, © CartoDB'
+    });
+    map.addLayer(layer);
+    L.mask('DE-border.geojson', {interactive:true, color:'#4e7793', weight:1, fillColor:'#000',fillOpacity:0.7}).addTo(map);
+
+    function url_response(url) {
+			return $.ajax(url,{method:'get',cache:false,dataType:'JSON'});
+		}
+
+  </script>
+
+  <script>
+    let lat = null
+    let lng = null
+    let value_pollution = 'no2_level'
+
+    function selectDataset(reference) {
+      let value = $(reference).val() //  $() - jquery selector. val() - getter and setter for value. for setting the value give a parameter inside.
+      value_pollution = value;
+      console.log(value_pollution)
+      api_calling();
+    }
+
+    am4core.useTheme(am4themes_dark);
+
+    const chart = am4core.create("chartBig1", am4charts.XYChart);
+    var dateAxis = chart.xAxes.push(new am4charts.DateAxis());
+    var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
+    var series = chart.series.push(new am4charts.LineSeries());
+
+    series.dataFields.valueY = "level";
+    series.dataFields.dateX = "dt";
+    series.tooltipText = "{value}";
+
+    series.tooltip.pointerOrientation = "vertical";
+    chart.cursor = new am4charts.XYCursor();
+    chart.cursor.snapToSeries = series;
+
+    async function api_calling() {
+      var curr = new Date; 
+      var today = curr.getDate(); 
+      var before = today - 6;
+      var start = Math.round(new Date(curr.setDate(before)).getTime()/1000);
+      var end = Math.round(new Date(curr.setDate(today)).getTime()/1000);
+      if (lat==null||lng==null) {
+        return;
+      }
+      const url = `http://api.openweathermap.org/data/2.5/air_pollution/history?lat=${lat}&lon=${lng}&start=${start}&end=${end}&appid=8aa236d300bbae398461f170310bcd37`
+      const response = await url_response(url)
+      let no2_level=[]
+      let pm2_5_level = []
+      let pm10_level = []
+      for (let i = 0; i < response.list.length; i++) {
+        no2_level.push({dt:response.list[i].dt*1000, level:response.list[i].components.no2});
+        pm2_5_level.push({dt:response.list[i].dt*1000, level:response.list[i].components.pm2_5});
+        pm10_level.push({dt:response.list[i].dt*1000, level:response.list[i].components.pm10});
+      }
+
+      var data = {"no2_level": no2_level, "pm2_5_level" : pm2_5_level , "pm10_level": pm10_level};
+
+      chart.data = data[value_pollution]
+    }
+
+    map.on('click', async function(e) {
+      lat = e.latlng.lat;
+      lng = e.latlng.lng;
+      api_calling();
+      const url = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lng}&appid=8aa236d300bbae398461f170310bcd37`
+      const response = await url_response(url);
+      console.log(response)
+      let temp = "";
+      if (response.list[0].main.aqi == 1) temp="Good"
+      else if (response.list[0].main.aqi == 2) temp ="Fair"
+      else if (response.list[0].main.aqi == 3) temp ="Moderate"
+      else if (response.list[0].main.aqi == 4) temp ="Poor"
+      else temp ="Very Poor"
+      $('#aqi').text(temp)
+
+      let no2 = "", pm2_5 = "", pm10 = "";
+      
+      if (response.list[0].components.no2 < 50) no2 ="Good"
+      else if (response.list[0].components.no2 < 100) no2 ="Fair"
+      else if (response.list[0].components.no2 < 200) no2 ="Moderate"
+      else if (response.list[0].components.no2 < 400) no2 ="Poor"
+      else no2 ="Very Poor"
+      if (response.list[0].components.pm2_5 < 15) pm2_5 ="Good"
+      else if (response.list[0].components.pm2_5 < 30) pm2_5 ="Fair"
+      else if (response.list[0].components.pm2_5 < 55) pm2_5 ="Moderate"
+      else if (response.list[0].components.pm2_5 < 110) pm2_5 ="Poor"
+      else pm2_5 ="Very Poor"
+      if (response.list[0].components.pm10 < 25) pm10 ="Good"
+      else if (response.list[0].components.pm10 < 50) pm10 ="Fair"
+      else if (response.list[0].components.pm10 < 90) pm10 ="Moderate"
+      else if (response.list[0].components.pm10 < 180) pm10 ="Poor"
+      else pm10 ="Very Poor"
+
+      let dict ={'Good':'#09FF00','Fair':'#E6FF00', 'Moderate':'#FFB401', 'Poor':'#FF0101', 'Very Poor':'#FF0101'}
+      $('#no2').html("<span style='color:"+dict[no2]+"'>"+no2+"</span>")
+      $('#pm2_5').html("<span style='color:"+dict[pm2_5]+"'>"+pm2_5+"</span>")
+      $('#pm10').html("<span style='color:"+dict[pm10]+"'>"+pm10+"</span>")
+    })
+  </script>
+
+  <script>
+    function heat_map() {
+      let lat, lng, name
+      let coord = []
+      coord.push({'lat': lat, 'lng': lng, 'state':name});
+
+    }
+  </script>
+</body>
+
+<!-- setter - user defined value setted by this method-->
+
+</html>
+
