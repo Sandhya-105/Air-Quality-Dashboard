@@ -1,0 +1,438 @@
+ID_1,NAME_1,ID_2,NAME_2,ID_3,NAME_3,lat,lng
+"1",Baden-Württemberg,"1",Freiburg,"1",Breisgau-Hochschwarzwald,47.9291496420949,7.92270389005155
+"1",Baden-Württemberg,"1",Freiburg,"2",Emmendingen,48.1510588276405,7.89766214203595
+"1",Baden-Württemberg,"1",Freiburg,"3",Freiburg,47.9951303612005,7.82134604398118
+"1",Baden-Württemberg,"1",Freiburg,"4",Konstanz,47.8023895918749,8.90895343797024
+"1",Baden-Württemberg,"1",Freiburg,"5","Lörrach 
+Lörrach 
+",47.7076448729134,7.77114830628101
+"1",Baden-Württemberg,"1",Freiburg,"6",Ortenaukreis,48.4227087852369,8.01544652165343
+"1",Baden-Württemberg,"1",Freiburg,"7",Rottweil,48.2570397512983,8.52807462682658
+"1",Baden-Württemberg,"1",Freiburg,"8",Schwarzwald-Baar-Kreis,48.0229632131854,8.40585703367701
+"1",Baden-Württemberg,"1",Freiburg,"9",Tuttlingen,48.015309828434,8.78673309646161
+"1",Baden-Württemberg,"1",Freiburg,"10",Waldshut,47.7014334734314,8.21790000161548
+"1",Baden-Württemberg,"2",Karlsruhe,"11",Baden-Baden Städte,48.7489517830559,8.23381726449297
+"1",Baden-Württemberg,"2",Karlsruhe,"12",Calw,48.6797800352438,8.63627817523609
+"1",Baden-Württemberg,"2",Karlsruhe,"13",Enz,48.9181150484276,8.74009652433432
+"1",Baden-Württemberg,"2",Karlsruhe,"14",Freudenstadt,48.4765226193335,8.46297514568041
+"1",Baden-Württemberg,"2",Karlsruhe,"15",Heidelberg Städte,49.4124098577105,8.69406875281766
+"1",Baden-Württemberg,"2",Karlsruhe,"16",Karlsruhe Städte,49.0144664421806,8.41479166888886
+"1",Baden-Württemberg,"2",Karlsruhe,"17",Karlsruhe,49.0867861001585,8.56417942391721
+"1",Baden-Württemberg,"2",Karlsruhe,"18",Mannheim Städte,49.5023922486487,8.50269886771825
+"1",Baden-Württemberg,"2",Karlsruhe,"19",Neckar-Odenwald-Kreis,49.4666029564695,9.28717710526968
+"1",Baden-Württemberg,"2",Karlsruhe,"20",Pforzheim Städte,48.8786876466834,8.71345749276723
+"1",Baden-Württemberg,"2",Karlsruhe,"21",Rastatt,48.7638745325216,8.24222584166757
+"1",Baden-Württemberg,"2",Karlsruhe,"22",Rhein-Neckar-Kreis,49.3753769450435,8.76817982001459
+"1",Baden-Württemberg,"3",Stuttgart,"23",Böblingen,48.6789595481294,8.94382368803189
+"1",Baden-Württemberg,"3",Stuttgart,"24",Esslingen,48.6486385680377,9.37131161517176
+"1",Baden-Württemberg,"3",Stuttgart,"25",Göppingen,48.6645408720602,9.72174332701382
+"1",Baden-Württemberg,"3",Stuttgart,"26",Heidenheim,48.6672354412655,10.1885962840708
+"1",Baden-Württemberg,"3",Stuttgart,"27",Heilbronn city Städte,49.153653114101,9.18712727450867
+"1",Baden-Württemberg,"3",Stuttgart,"28",Heilbronn,49.1786169200975,9.19345223644586
+"1",Baden-Württemberg,"3",Stuttgart,"29",Hohenlohe,49.2680492229863,9.62302199800556
+"1",Baden-Württemberg,"3",Stuttgart,"30",Ludwigsburg,48.9411428539452,9.12596488424925
+"1",Baden-Württemberg,"3",Stuttgart,"31",Main-Tauber,49.5563901110207,9.7337480419066
+"1",Baden-Württemberg,"3",Stuttgart,"32",Ostalbkreis,48.8793576041074,10.0991113234256
+"1",Baden-Württemberg,"3",Stuttgart,"33",Rems-Murr-Kreis,48.8984384615516,9.50635319060182
+"1",Baden-Württemberg,"3",Stuttgart,"34",Schwäbisch Hall,49.142533040265,9.91761916229863
+"1",Baden-Württemberg,"3",Stuttgart,"35",Stuttgart Städte,48.7753012103391,9.17433604070473
+"1",Baden-Württemberg,"4",Tübingen,"36",Alb-Donau,48.4049153177887,9.83033785297724
+"1",Baden-Württemberg,"4",Tübingen,"37",Biberach,48.1106928015943,9.77529489914293
+"1",Baden-Württemberg,"4",Tübingen,"38",Bodensee,47.7365223032041,9.40275931233138
+"1",Baden-Württemberg,"4",Tübingen,"39",Ravensburg,47.8278560135106,9.77925817348295
+"1",Baden-Württemberg,"4",Tübingen,"40",Reutlingen,48.4078407571132,9.36651406803462
+"1",Baden-Württemberg,"4",Tübingen,"41",Sigmaringen,48.041548388682,9.23699069315324
+"1",Baden-Württemberg,"4",Tübingen,"42",Tübingen,48.4828823974063,8.98648794274387
+"1",Baden-Württemberg,"4",Tübingen,"43",Ulm Städte,48.3952388891953,9.9536590532974
+"1",Baden-Württemberg,"4",Tübingen,"44",Zollernalbkreis,48.2694771593314,8.93414279259009
+"2",Bayern,"5",Mittelfranken,"45",Ansbach Städte,49.2908479895928,10.5723582492406
+"2",Bayern,"5",Mittelfranken,"46",Ansbach,49.2463760785857,10.4781143624107
+"2",Bayern,"5",Mittelfranken,"47",Erlangen-Höchstadt,49.637594792526,10.9229276463557
+"2",Bayern,"5",Mittelfranken,"48",Erlangen Städte,49.5808575341313,10.9849151860434
+"2",Bayern,"5",Mittelfranken,"49",Fürth Städte,49.488843717524,10.9725318453657
+"2",Bayern,"5",Mittelfranken,"50",Fürth,49.4439864004415,10.8573894664576
+"2",Bayern,"5",Mittelfranken,"51",Nürnberger Land,49.4917293308497,11.3729881880633
+"2",Bayern,"5",Mittelfranken,"52",Neustadt-Bad Windsheim,49.5652459437847,10.4712793302441
+"2",Bayern,"5",Mittelfranken,"53",Nuremberg Städte,49.4349821191786,11.0848271701584
+"2",Bayern,"5",Mittelfranken,"54",Roth,49.1992112297288,11.130022281063
+"2",Bayern,"5",Mittelfranken,"55",Schwabach Städte,49.3322137650491,11.0305114163101
+"2",Bayern,"5",Mittelfranken,"56",Weißenburg-Gunzenhausen,49.0294363538279,10.9027777287697
+"2",Bayern,"6",Niederbayern,"57",Deggendorf,48.7843358331287,13.0058209164425
+"2",Bayern,"6",Niederbayern,"58",Dingolfing-Landau,48.6453889593369,12.6136971483247
+"2",Bayern,"6",Niederbayern,"59",Freyung-Grafenau,48.8297110635232,13.5150347941039
+"2",Bayern,"6",Niederbayern,"60",Kelheim,48.8235436640366,11.8591543175708
+"2",Bayern,"6",Niederbayern,"61",Landshut Städte,48.5435461176386,12.1596175962163
+"2",Bayern,"6",Niederbayern,"62",Landshut,48.5581118503064,12.1977129974565
+"2",Bayern,"6",Niederbayern,"63",Passau Städte,48.5880106117417,13.4156356206056
+"2",Bayern,"6",Niederbayern,"64",Passau,48.5621340074023,13.368837919117
+"2",Bayern,"6",Niederbayern,"65",Regen,49.0264123010191,13.103755493173
+"2",Bayern,"6",Niederbayern,"66",Rottal-Inn,48.4317682103766,12.8712589281584
+"2",Bayern,"6",Niederbayern,"67",Straubing-Bogen,48.9035471264679,12.58504174393
+"2",Bayern,"6",Niederbayern,"68",Straubing Städte,48.8846520438497,12.5755156218505
+"2",Bayern,"7",Oberbayern,"69",Altötting,48.2156013837989,12.710636588651
+"2",Bayern,"7",Oberbayern,"70",Bad Tölz-Wolfratshausen,47.7244917642074,11.488394048743
+"2",Bayern,"7",Oberbayern,"71",Berchtesgadener Land,47.7004175751192,12.9033713467916
+"2",Bayern,"7",Oberbayern,"72",Dachau,48.3309780981817,11.3615210748027
+"2",Bayern,"7",Oberbayern,"73",Ebersberg,48.0734022744984,11.9167477017876
+"2",Bayern,"7",Oberbayern,"74",Eichstätt,48.8938799938417,11.3764885021668
+"2",Bayern,"7",Oberbayern,"75",Erding,48.2986984890519,12.0031087064738
+"2",Bayern,"7",Oberbayern,"76",Fürstenfeldbruck,48.1850674705339,11.2060527704764
+"2",Bayern,"7",Oberbayern,"77",Freising,48.4447200352593,11.7430074354442
+"2",Bayern,"7",Oberbayern,"78",Garmisch-Partenkirchen,47.5555131666843,11.1284055592682
+"2",Bayern,"7",Oberbayern,"79",Ingolstadt Städte,48.7513611841049,11.3985912841192
+"2",Bayern,"7",Oberbayern,"80",Landsberg,48.0244117769687,10.9540557281589
+"2",Bayern,"7",Oberbayern,"81",Mühldorf,48.2411147633294,12.3853156468207
+"2",Bayern,"7",Oberbayern,"82",München,48.070467055583,11.6358051326049
+"2",Bayern,"7",Oberbayern,"83",Miesbach,47.7390677338087,11.8159704367035
+"2",Bayern,"7",Oberbayern,"84",Munich Städte,48.1494236109752,11.5507225244494
+"2",Bayern,"7",Oberbayern,"85",Neuburg-Schrobenhausen,48.6602974439631,11.2028540863779
+"2",Bayern,"7",Oberbayern,"86",Pfaffenhofen,48.5926401656029,11.5266441144867
+"2",Bayern,"7",Oberbayern,"87",Rosenheim Städte,47.8408236854778,12.1132866848614
+"2",Bayern,"7",Oberbayern,"88",Rosenheim,47.8756517106837,12.1665438161503
+"2",Bayern,"7",Oberbayern,"89",Starnberg,48.00290057857,11.2871407535414
+"2",Bayern,"7",Oberbayern,"90",Traunstein,47.899205244253,12.5824488907788
+"2",Bayern,"7",Oberbayern,"91",Weilheim-Schongau,47.7869489955862,11.0518497982336
+"2",Bayern,"8",Oberfranken,"92",Bamberg Städte,49.8845292650166,10.9023989172708
+"2",Bayern,"8",Oberfranken,"93",Bamberg,49.8903275477612,10.8869124274526
+"2",Bayern,"8",Oberfranken,"94",Bayreuth Städte,49.9363685924743,11.5899558552875
+"2",Bayern,"8",Oberfranken,"95",Bayreuth,49.8840296475883,11.561516009452
+"2",Bayern,"8",Oberfranken,"96",Coburg Städte,50.2609114843919,10.9661737957919
+"2",Bayern,"8",Oberfranken,"97",Coburg,50.2649815706009,10.9451971046899
+"2",Bayern,"8",Oberfranken,"98",Forchheim,49.7222060325536,11.1800236114973
+"2",Bayern,"8",Oberfranken,"99",Hof Städte,50.3135209470423,11.8989259374874
+"2",Bayern,"8",Oberfranken,"100",Hof,50.2747520028462,11.8193743845792
+"2",Bayern,"8",Oberfranken,"101",Kronach,50.3268196106609,11.3729931351325
+"2",Bayern,"8",Oberfranken,"102",Kulmbach,50.1021511651146,11.4851836187724
+"2",Bayern,"8",Oberfranken,"103",Lichtenfels,50.1077517988365,11.1196939905726
+"2",Bayern,"8",Oberfranken,"104",Wunsiedel,50.0917028446928,12.0422321085118
+"2",Bayern,"9",Oberpfalz,"105",Amberg-Sulzbach,49.4881696943549,11.8062702570844
+"2",Bayern,"9",Oberpfalz,"106",Amberg Städte,49.4543115118993,11.8482316637224
+"2",Bayern,"9",Oberpfalz,"107",Cham,49.2412690736273,12.7004189080941
+"2",Bayern,"9",Oberpfalz,"108",Neumarkt,49.2159435003842,11.5699566059068
+"2",Bayern,"9",Oberpfalz,"109",Neustadt,49.6873060502809,12.1049081445724
+"2",Bayern,"9",Oberpfalz,"110",Regensburg Städte,49.0134968093579,12.1146303450449
+"2",Bayern,"9",Oberpfalz,"111",Regensburg,49.0225036712558,12.1236834780849
+"2",Bayern,"9",Oberpfalz,"112",Schwandorf,49.3697072241086,12.2558259971033
+"2",Bayern,"9",Oberpfalz,"113",Tirschenreuth,49.9003526084383,12.2033668261852
+"2",Bayern,"9",Oberpfalz,"114",Weiden Städte,49.6694397517414,12.161223389195
+"2",Bayern,"10",Schwaben,"115",Aichach-Friedberg,48.4248046284861,11.0586445885609
+"2",Bayern,"10",Schwaben,"116",Augsburg Städte,48.3447885046476,10.8919203810932
+"2",Bayern,"10",Schwaben,"117",Augsburg,48.3550824448284,10.7371502277496
+"2",Bayern,"10",Schwaben,"118",Dillingen,48.5989995244191,10.5347723322952
+"2",Bayern,"10",Schwaben,"119",Donau-Ries,48.8058132225866,10.7225952689086
+"2",Bayern,"10",Schwaben,"120",Günzburg,48.3580903422636,10.3845684628172
+"2",Bayern,"10",Schwaben,"121",Kaufbeuren Städte,47.8834084591519,10.6181670181352
+"2",Bayern,"10",Schwaben,"122",Kempten Städte,47.7414287015738,10.3074566584449
+"2",Bayern,"10",Schwaben,"123",Lindau,47.6073248255704,9.88312917210496
+"2",Bayern,"10",Schwaben,"124",Memmingen Städte,47.984025044254,10.1594998159278
+"2",Bayern,"10",Schwaben,"125",Neu-Ulm,48.3034393700998,10.1438861652727
+"2",Bayern,"10",Schwaben,"126",Oberallgäu,47.5741856425271,10.2575346828784
+"2",Bayern,"10",Schwaben,"127",Ostallgäu,47.7740135608445,10.64073170167
+"2",Bayern,"10",Schwaben,"128",Unterallgäu,48.0439905883499,10.3932389866472
+"2",Bayern,"11",Unterfranken,"129",Aschaffenburg Städte,49.9643594795751,9.16105330159864
+"2",Bayern,"11",Unterfranken,"130",Aschaffenburg,50.0067352498658,9.25093155721176
+"2",Bayern,"11",Unterfranken,"131",Bad Kissingen,50.2204000688437,9.96465024498061
+"2",Bayern,"11",Unterfranken,"132",Haßberge,50.0581215680331,10.609423392354
+"2",Bayern,"11",Unterfranken,"133",Kitzingen,49.7481425572244,10.2586350170008
+"2",Bayern,"11",Unterfranken,"134",Main-Spessart,49.9910816604378,9.66762009427091
+"2",Bayern,"11",Unterfranken,"135",Miltenberg,49.7571665620396,9.24557486148019
+"2",Bayern,"11",Unterfranken,"136",Rhön-Grabfeld,50.3695076219462,10.2564401827453
+"2",Bayern,"11",Unterfranken,"137",Schweinfurt Städte,50.042187041006,10.221888390424
+"2",Bayern,"11",Unterfranken,"138",Schweinfurt,50.0126986498994,10.2614547307133
+"2",Bayern,"11",Unterfranken,"139",Würzburg Städte,49.7791088817948,9.94436609108958
+"2",Bayern,"11",Unterfranken,"140",Würzburg,49.7333380420219,9.93193371680031
+"3",Berlin,"12",Berlin,"141",Berlin,52.4993362056014,13.4087824776989
+"4",Brandenburg,"13",Brandenburg,"142",Barnim,52.8227584149124,13.7113954991606
+"4",Brandenburg,"13",Brandenburg,"143",Brandenburg an der Havel Städte,52.3940777644254,12.5123091858512
+"4",Brandenburg,"13",Brandenburg,"144",Cottbus Städte,51.7745093199028,14.3790457563312
+"4",Brandenburg,"13",Brandenburg,"145",Dahme-Spreewald,52.04326500443,13.830851887775
+"4",Brandenburg,"13",Brandenburg,"146",Elbe-Elster,51.613437486115,13.4754575395217
+"4",Brandenburg,"13",Brandenburg,"147",Frankfurt am Oder Städte,52.3258041550008,14.4880779405144
+"4",Brandenburg,"13",Brandenburg,"148",Havelland,52.6169573073923,12.6328454686171
+"4",Brandenburg,"13",Brandenburg,"149",Märkisch-Oderland,52.6060984386771,14.1469363126391
+"4",Brandenburg,"13",Brandenburg,"150",Oberhavel,52.9035141088138,13.2102231310621
+"4",Brandenburg,"13",Brandenburg,"151",Oberspreewald-Lausitz,51.6182181404878,13.9595107286108
+"4",Brandenburg,"13",Brandenburg,"152",Oder-Spree,52.2464151366344,14.2186317200128
+"4",Brandenburg,"13",Brandenburg,"153",Ostprignitz-Ruppin,52.9868328348278,12.6417482252211
+"4",Brandenburg,"13",Brandenburg,"154",Potsdam-Mittelmark,52.2513018359641,12.7084451025745
+"4",Brandenburg,"13",Brandenburg,"155",Potsdam Städte,52.3966563848426,13.0579570403606
+"4",Brandenburg,"13",Brandenburg,"156",Prignitz,53.1050592612012,11.9678974442028
+"4",Brandenburg,"13",Brandenburg,"157",Spree-Neiße,51.7556392151075,14.4327110895895
+"4",Brandenburg,"13",Brandenburg,"158",Teltow-Fläming,52.0715079753475,13.2877246906518
+"4",Brandenburg,"13",Brandenburg,"159",Uckermark,53.2052618237055,13.8624142611117
+"5",Bremen,"14",Bremen,"160",Bremen Städte,53.1121443395575,8.78623450792077
+"5",Bremen,"15",Bremerhaven,"161",Bremerhaven,53.5382718446071,8.58859813105952
+"6",Hamburg,"16",Hamburg,"162",Hamburg Städte,53.5545681838457,10.0272087465564
+"7",Hessen,"17",Darmstadt,"163",Bergstraße,49.6205418954277,8.66575640900415
+"7",Hessen,"17",Darmstadt,"164",Darmstadt-Dieburg,49.8568562240469,8.80617852183683
+"7",Hessen,"17",Darmstadt,"165",Darmstadt Städte,49.8826415024624,8.6766642895256
+"7",Hessen,"17",Darmstadt,"166",Frankfurt am Main Städte,50.1165192379262,8.65971707647624
+"7",Hessen,"17",Darmstadt,"167",Groß-Gerau,49.9029651299202,8.48073210483421
+"7",Hessen,"17",Darmstadt,"168",Hochtaunuskreis,50.2794461863408,8.52178772522942
+"7",Hessen,"17",Darmstadt,"169",Main-Kinzig-Kreis,50.2427388978248,9.29331069102042
+"7",Hessen,"17",Darmstadt,"170",Main-Taunus-Kreis Städte,50.1000825948492,8.45053146786525
+"7",Hessen,"17",Darmstadt,"171",Odenwaldkreis,49.6751112941451,8.98831900102033
+"7",Hessen,"17",Darmstadt,"172",Offenbach am Main Städte,50.0904082857676,8.79737124826285
+"7",Hessen,"17",Darmstadt,"173",Offenbach,50.0217323637742,8.82663053237228
+"7",Hessen,"17",Darmstadt,"174",Rheingau-Taunus-Kreis,50.1393168873102,8.09509802372494
+"7",Hessen,"17",Darmstadt,"175",Wetteraukreis,50.3529876879236,8.92095987732381
+"7",Hessen,"17",Darmstadt,"176",Wiesbaden Städte,50.076509570675,8.27556581709798
+"7",Hessen,"18",Gießen,"177",Gießen,50.5677435474132,8.82136260203511
+"7",Hessen,"18",Gießen,"178",Lahn-Dill-Kreis,50.6481611293202,8.37909210831098
+"7",Hessen,"18",Gießen,"179",Limburg-Weilburg,50.4265682631784,8.21796079895412
+"7",Hessen,"18",Gießen,"180",Marburg-Biedenkopf,50.8335175581377,8.75123866208259
+"7",Hessen,"18",Gießen,"181",Vogelsbergkreis,50.6375124079271,9.27902541974479
+"7",Hessen,"19",Kassel,"182",Fulda,50.5641568677938,9.761326325387
+"7",Hessen,"19",Kassel,"183",Hersfeld-Rotenburg,50.9089950866217,9.75700865641084
+"7",Hessen,"19",Kassel,"184",Kassel Städte,51.3120111747765,9.46627705099258
+"7",Hessen,"19",Kassel,"185",Kassel,51.4025644994594,9.41677475164697
+"7",Hessen,"19",Kassel,"186",Schwalm-Eder-Kreis,51.0225286051937,9.38242967526979
+"7",Hessen,"19",Kassel,"187",Waldeck-Frankenberg,51.1877815646874,8.90325074105273
+"7",Hessen,"19",Kassel,"188",Werra-Meißner-Kreis,51.1934253321333,9.93136400745817
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"189",Bad Doberan,54.0524392776489,12.0859286984938
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"190",Demmin,53.7946012528518,13.0436496060924
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"191",Güstrow,53.8190961654669,12.3194210777721
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"192",Greifswald Städte,54.0812514821597,13.4196402566215
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"193",Ludwigslust,53.3777598366447,11.234029418232
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"194",Müritz,53.4567113269355,12.6493506593018
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"195",Mecklenburg-Strelitz,53.4388883732574,13.286203923072
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"196",Neubrandenburg Städte,53.5371048020275,13.2495525230464
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"197",Nordvorpommern,54.2128905436451,12.8138422901893
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"198",Nordwestmecklenburg,53.8208925823594,11.2515990276593
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"199",Ostvorpommern,53.9318732865963,13.6719834732921
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"200",Parchim,53.5286224414169,11.881774037008
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"201",Rügen,54.4390907890314,13.3870651232868
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"202",Rostock Städte,54.1513485952082,12.1528614676341
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"203",Schwerin Städte,53.6205162988114,11.4214362879145
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"204",Stralsund Städte,54.2963079605745,13.0786883833048
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"205",Uecker-Randow,53.5510784977365,14.0725313129888
+"8",Mecklenburg-Vorpommern,"20",Mecklenburg-Vorpommern,"206",Wismar Städte,53.898804227244,11.4669083648379
+"9",Niedersachsen,"21",Braunschweig,"207",Braunschweig Städte,52.2792314085863,10.5256571193655
+"9",Niedersachsen,"21",Braunschweig,"208",Göttingen,51.5015361062628,9.93101252266414
+"9",Niedersachsen,"21",Braunschweig,"209",Gifhorn,52.5864039544059,10.606477975898
+"9",Niedersachsen,"21",Braunschweig,"210",Goslar,51.876649964292,10.4021249673626
+"9",Niedersachsen,"21",Braunschweig,"211",Helmstedt,52.2610946978241,10.8919797944845
+"9",Niedersachsen,"21",Braunschweig,"212",Northeim,51.7443298885146,9.85207864569166
+"9",Niedersachsen,"21",Braunschweig,"213",Osterode,51.6767875804997,10.3742218139533
+"9",Niedersachsen,"21",Braunschweig,"214",Peine,52.308683355678,10.2577295531806
+"9",Niedersachsen,"21",Braunschweig,"215",Salzgitter Städte,52.1291123073179,10.3707328368644
+"9",Niedersachsen,"21",Braunschweig,"216",Wolfenbüttel,52.130501704614,10.5850541649811
+"9",Niedersachsen,"21",Braunschweig,"217",Wolfsburg Städte,52.4114842143644,10.7860996305261
+"9",Niedersachsen,"22",Hannover,"218",Diepholz,52.7305732422977,8.70288394071785
+"9",Niedersachsen,"22",Hannover,"219",Hamelin-Pyrmont,52.0945692558364,9.39240861071116
+"9",Niedersachsen,"22",Hannover,"220",Hanover,52.4242564023037,9.72132510242441
+"9",Niedersachsen,"22",Hannover,"221",Hildesheim,52.0916846495102,9.94505372955363
+"9",Niedersachsen,"22",Hannover,"222",Holzminden,51.8803721412929,9.55464172949002
+"9",Niedersachsen,"22",Hannover,"223",Nienburg,52.611208402158,9.11493735439535
+"9",Niedersachsen,"22",Hannover,"224",Schaumburg,52.2928480226577,9.20771654776377
+"9",Niedersachsen,"23",Lüneburg,"225",Celle,52.7196332113928,10.1057492368924
+"9",Niedersachsen,"23",Lüneburg,"226",Cuxhaven,53.620069045936,8.81036455456583
+"9",Niedersachsen,"23",Lüneburg,"227",Harburg,53.3251292887174,9.96540628067673
+"9",Niedersachsen,"23",Lüneburg,"228",Osterholz,53.2552740235743,8.80864384170145
+"9",Niedersachsen,"23",Lüneburg,"229",Rotenburg,53.2556966409764,9.30547482012678
+"9",Niedersachsen,"23",Lüneburg,"230",Soltau-Fallingbostel,52.9347590821089,9.77061612065229
+"9",Niedersachsen,"23",Lüneburg,"231",Stade,53.5947615997348,9.41624401858741
+"9",Niedersachsen,"23",Lüneburg,"232",Verden,52.9766376820357,9.17466080508895
+"9",Niedersachsen,"24",Luneburg,"233",Lüchow-Dannenberg,53.0197973835024,11.1275336364335
+"9",Niedersachsen,"24",Luneburg,"234",Lüneburg,53.2399002138622,10.5764352198283
+"9",Niedersachsen,"24",Luneburg,"235",Uelzen,52.9933064521961,10.5505318974969
+"9",Niedersachsen,"25",Weser-Ems,"236",Ammerland,53.2132628149383,8.03302391801262
+"9",Niedersachsen,"25",Weser-Ems,"237",Aurich,53.4916774568377,7.36384352198288
+"9",Niedersachsen,"25",Weser-Ems,"238",Cloppenburg,52.9052456766794,7.92274446851646
+"9",Niedersachsen,"25",Weser-Ems,"239",Emden Städte,53.3488911891881,7.24107864483824
+"9",Niedersachsen,"25",Weser-Ems,"240",Emsland,52.7312340544858,7.41911572672259
+"9",Niedersachsen,"25",Weser-Ems,"241",Friesland,53.5097355978382,7.99372039535962
+"9",Niedersachsen,"25",Weser-Ems,"242",Grafschaft Bentheim,52.4791618941811,7.02466718431579
+"9",Niedersachsen,"25",Weser-Ems,"243",Leer,53.217142969588,7.53516307668416
+"9",Niedersachsen,"25",Weser-Ems,"244",Oldenburg Städte,53.1438864450134,8.23309903900536
+"9",Niedersachsen,"25",Weser-Ems,"245",Oldenburg,52.9922889250453,8.40905195017272
+"9",Niedersachsen,"25",Weser-Ems,"246",Osnabrück Städte,52.2794472180905,8.04710719460836
+"9",Niedersachsen,"25",Weser-Ems,"247",Osnabrück,52.3801873768298,8.05080499047363
+"9",Niedersachsen,"25",Weser-Ems,"248",Vechta,52.6607810748821,8.22670392805458
+"9",Niedersachsen,"25",Weser-Ems,"249",Wesermarsch,53.3592884989803,8.39162146162265
+"9",Niedersachsen,"25",Weser-Ems,"250",Wilhelmshaven Städte,53.5636736266313,8.09026023424848
+"9",Niedersachsen,"25",Weser-Ems,"251",Wittmund,53.5703490307052,7.71996462050091
+"10",Nordrhein-Westfalen,"26",Arnsberg,"252",Bochum Städte,51.4651246932278,7.23041314063492
+"10",Nordrhein-Westfalen,"26",Arnsberg,"253",Dortmund Städte,51.5122683536788,7.47875215124176
+"10",Nordrhein-Westfalen,"26",Arnsberg,"254",Ennepe-Ruhr,51.342753785624,7.32624451241062
+"10",Nordrhein-Westfalen,"26",Arnsberg,"255",Hagen Städte,51.3455629924984,7.49837023843986
+"10",Nordrhein-Westfalen,"26",Arnsberg,"256",Hamm Städte,51.6633341802793,7.8268735128529
+"10",Nordrhein-Westfalen,"26",Arnsberg,"257",Herne Städte,51.5321698365079,7.21827044391313
+"10",Nordrhein-Westfalen,"26",Arnsberg,"258",Hochsauerlandkreis,51.3054529370052,8.39620886992506
+"10",Nordrhein-Westfalen,"26",Arnsberg,"259",Märkischer Kreis,51.2605900167945,7.71369511607796
+"10",Nordrhein-Westfalen,"26",Arnsberg,"260",Olpe,51.0860940130078,7.98063032889681
+"10",Nordrhein-Westfalen,"26",Arnsberg,"261",Siegen-Wittgenstein,50.9382436317778,8.20516604588008
+"10",Nordrhein-Westfalen,"26",Arnsberg,"262",Soest,51.5635720537867,8.22218660063851
+"10",Nordrhein-Westfalen,"26",Arnsberg,"263",Unna,51.5760043458778,7.64004694478872
+"10",Nordrhein-Westfalen,"27",Düsseldorf,"264",Cleves,51.653537969013,6.26750913952812
+"10",Nordrhein-Westfalen,"27",Düsseldorf,"265",Düsseldorf Städte,51.2337079077678,6.8168488318212
+"10",Nordrhein-Westfalen,"27",Düsseldorf,"266",Duisburg Städte,51.4383403017963,6.74371517888759
+"10",Nordrhein-Westfalen,"27",Düsseldorf,"267",Essen Städte,51.4299699167858,7.02503172910353
+"10",Nordrhein-Westfalen,"27",Düsseldorf,"268",Krefeld Städte,51.3451952752771,6.5876322549955
+"10",Nordrhein-Westfalen,"27",Düsseldorf,"269",Mönchengladbach Städte,51.1691026003078,6.41995152195139
+"10",Nordrhein-Westfalen,"27",Düsseldorf,"270",Mülheim Städte,51.410548987301,6.88685379915723
+"10",Nordrhein-Westfalen,"27",Düsseldorf,"271",Mettmann,51.2536247689562,6.9745659778387
+"10",Nordrhein-Westfalen,"27",Düsseldorf,"272",Oberhausen Städte,51.5107971605424,6.85694919120911
+"10",Nordrhein-Westfalen,"27",Düsseldorf,"273",Remscheid Städte,51.1792739756188,7.22429644065298
+"10",Nordrhein-Westfalen,"27",Düsseldorf,"274",Rhein-Kreis Neuss,51.1425023003921,6.65655501471138
+"10",Nordrhein-Westfalen,"27",Düsseldorf,"275",Solingen Städte,51.1588063222635,7.06980319575931
+"10",Nordrhein-Westfalen,"27",Düsseldorf,"276",Viersen,51.2855734427078,6.3326928046174
+"10",Nordrhein-Westfalen,"27",Düsseldorf,"277",Wesel,51.627227893467,6.6278038836109
+"10",Nordrhein-Westfalen,"27",Düsseldorf,"278",Wuppertal Städte,51.2471710894562,7.17041562159444
+"10",Nordrhein-Westfalen,"28",Detmold,"279",Bielefeld Städte,52.0111926190689,8.5431532912715
+"10",Nordrhein-Westfalen,"28",Detmold,"280",Gütersloh,51.9315966991199,8.35407602939653
+"10",Nordrhein-Westfalen,"28",Detmold,"281",Höxter,51.6846134922906,9.18698975699344
+"10",Nordrhein-Westfalen,"28",Detmold,"282",Herford,52.1674954259561,8.64477882091186
+"10",Nordrhein-Westfalen,"28",Detmold,"283",Lippe,51.9804580290735,8.95415453720407
+"10",Nordrhein-Westfalen,"28",Detmold,"284",Minden-Lübbecke,52.3526419352323,8.74105717976372
+"10",Nordrhein-Westfalen,"28",Detmold,"285",Paderborn,51.6622164601108,8.72812005473714
+"10",Nordrhein-Westfalen,"29",Köln,"286",Aachen Städte,50.7572864841607,6.10136172703153
+"10",Nordrhein-Westfalen,"29",Köln,"287",Aachen,50.7198767056071,6.24579180546252
+"10",Nordrhein-Westfalen,"29",Köln,"288",Bonn Städte,50.700339930567,7.11408833914119
+"10",Nordrhein-Westfalen,"29",Köln,"289",Cologne Städte,50.9412377801667,6.97775155934919
+"10",Nordrhein-Westfalen,"29",Köln,"290",Düren,50.8164479033415,6.44815926431327
+"10",Nordrhein-Westfalen,"29",Köln,"291",Euskirchen,50.5301266057387,6.64650398026965
+"10",Nordrhein-Westfalen,"29",Köln,"292",Heinsberg,51.051661247919,6.17153996350575
+"10",Nordrhein-Westfalen,"29",Köln,"293",Leverkusen Städte,51.048852704854,7.01873647093136
+"10",Nordrhein-Westfalen,"29",Köln,"294",Oberbergischer Kreis,51.0103405513857,7.51798185782439
+"10",Nordrhein-Westfalen,"29",Köln,"295",Rhein-Erft-Kreis,50.9017773114768,6.72210485958233
+"10",Nordrhein-Westfalen,"29",Köln,"296",Rhein-Sieg,50.7560964543107,7.2389303538402
+"10",Nordrhein-Westfalen,"29",Köln,"297",Rheinisch-Bergischer Kreis,51.0187833914558,7.19630484878474
+"10",Nordrhein-Westfalen,"30",Munster,"298",Borken,51.9613288894331,6.90763668293538
+"10",Nordrhein-Westfalen,"30",Munster,"299",Bottrop Städte,51.5685070430092,6.93073401745807
+"10",Nordrhein-Westfalen,"30",Munster,"300",Coesfeld,51.8650822403036,7.37159915180431
+"10",Nordrhein-Westfalen,"30",Munster,"301",Gelsenkirchen Städte,51.548940789649,7.0816710542092
+"10",Nordrhein-Westfalen,"30",Munster,"302",Münster Städte,51.9525027767705,7.62772427538373
+"10",Nordrhein-Westfalen,"30",Munster,"303",Recklinghausen,51.6690330960603,7.1673296272506
+"10",Nordrhein-Westfalen,"30",Munster,"304",Steinfurt,52.2112741429525,7.58153965428563
+"10",Nordrhein-Westfalen,"30",Munster,"305",Warendorf,51.8697895092601,7.96083006011798
+"11",Rheinland-Pfalz,"31",Koblenz,"306",Ahrweiler,50.4610800574444,7.05136529131372
+"11",Rheinland-Pfalz,"31",Koblenz,"307",Altenkirchen,50.7500759601786,7.75041666586483
+"11",Rheinland-Pfalz,"31",Koblenz,"308",Bad Kreuznach,49.8258319556811,7.69509358208502
+"11",Rheinland-Pfalz,"31",Koblenz,"309",Birkenfeld,49.7170612131732,7.28932566533558
+"11",Rheinland-Pfalz,"31",Koblenz,"310",Cochem-Zell,50.1306477928262,7.18722498415058
+"11",Rheinland-Pfalz,"31",Koblenz,"311",Koblenz Coblenz Städte,50.347153812534,7.58871074550567
+"11",Rheinland-Pfalz,"31",Koblenz,"312",Mayen-Koblenz,50.3282796613206,7.34094298651967
+"11",Rheinland-Pfalz,"31",Koblenz,"313",Neuwied,50.55441245481,7.47634597016746
+"11",Rheinland-Pfalz,"31",Koblenz,"314",Rhein-Hunsrück,50.0454209366692,7.51337948198337
+"11",Rheinland-Pfalz,"31",Koblenz,"315",Rhein-Lahn,50.2647375075854,7.85808105269585
+"11",Rheinland-Pfalz,"31",Koblenz,"316",Westerwaldkreis,50.5525853096963,7.87932662823299
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"317",Alzey-Worms,49.7567399667185,8.16373256817567
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"318",Bad Dürkheim,49.4524274777446,8.11450379169574
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"319",Donnersbergkreis,49.6298837980844,7.92308496611894
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"320",Frankenthal Städte,49.5339293538225,8.36029694724233
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"321",Germersheim,49.1163415798067,8.24833147556573
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"322",Kaiserslautern Städte,49.4336823637761,7.76889021846873
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"323",Kaiserslautern,49.447563268067,7.69188683327096
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"324",Kusel,49.5505500004191,7.48100762737084
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"325",Landau Städte,49.2247642366863,8.05811858275582
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"326",Ludwigshafen Städte,49.4834519928628,8.39983675836663
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"327",Mainz-Bingen,49.920154253805,8.08743793748266
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"328",Mainz Städte,49.97240195944,8.25263751910385
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"329",Neustadt Städte,49.3423204209346,8.15508649720504
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"330",Rhein-Pfalz-Kreis,49.4188966497258,8.36286535420148
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"331",Südliche Weinstraße,49.1894787120333,8.05143267386446
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"332",Südwestpfalz,49.2094007869522,7.65778223766192
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"333",Speyer Spires Städte,49.3332258494335,8.43618776436677
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"334",Worms Städte,49.6492210865864,8.32951725692737
+"11",Rheinland-Pfalz,"32",Rheinhessen-Pfalz,"335",Zweibrücken Städte,49.2555279457226,7.36966406801817
+"11",Rheinland-Pfalz,"33",Trier,"336",Bernkastel-Wittlich,49.9250063378491,6.97065810396226
+"11",Rheinland-Pfalz,"33",Trier,"337",Bitburg-Prüm,50.0623387310904,6.40648846283382
+"11",Rheinland-Pfalz,"33",Trier,"338",Trier-Saarburg,49.6974202732391,6.694093284877
+"11",Rheinland-Pfalz,"33",Trier,"339",Trier Städte,49.7648786360191,6.65378641180147
+"11",Rheinland-Pfalz,"33",Trier,"340",Vulkaneifel,50.2327954713429,6.75045929330857
+"12",Saarland,"34",Saarland,"341",Merzig-Wadern,49.4985373946169,6.6833502197798
+"12",Saarland,"34",Saarland,"342",Neunkirchen,49.3820311235079,7.12367641195969
+"12",Saarland,"34",Saarland,"343",Saarbrücken Städte,49.2540185387208,6.96226955715864
+"12",Saarland,"34",Saarland,"344",Saarlouis,49.3575768395487,6.7768999706602
+"12",Saarland,"34",Saarland,"345",Saarpfalz,49.2515761859981,7.24657013715198
+"12",Saarland,"34",Saarland,"346",Sankt Wendel,49.5259206015156,7.10598321509974
+"13",Sachsen-Anhalt,"35",Dessau,"347",Anhalt-Zerbst,51.9761305209945,12.2297616129952
+"13",Sachsen-Anhalt,"35",Dessau,"348",Bernburg,51.7536390364807,11.7423412946575
+"13",Sachsen-Anhalt,"35",Dessau,"349",Bitterfeld,51.6470070868593,12.2988129198842
+"13",Sachsen-Anhalt,"35",Dessau,"350",Dessau Städte,51.8134474469852,12.2397776174454
+"13",Sachsen-Anhalt,"35",Dessau,"351",Köthen,51.7545529551252,12.0169466598592
+"13",Sachsen-Anhalt,"35",Dessau,"352",Wittenberg,51.7917558438332,12.7905764120014
+"13",Sachsen-Anhalt,"36",Halle,"353",Aschersleben-Staßfurt,51.8205147792975,11.448402972354
+"13",Sachsen-Anhalt,"36",Halle,"354",Burgenlandkreis,51.1343989022598,11.8348297655974
+"13",Sachsen-Anhalt,"36",Halle,"355",Halle Städte,51.4803902141406,11.9753426304392
+"13",Sachsen-Anhalt,"36",Halle,"356",Mansfelder Land,51.5769555934888,11.5069748111858
+"13",Sachsen-Anhalt,"36",Halle,"357",Merseburg-Querfurt,51.3454997547543,11.8206534951598
+"13",Sachsen-Anhalt,"36",Halle,"358",Saalkreis,51.5284798490167,11.9376542643408
+"13",Sachsen-Anhalt,"36",Halle,"359",Sangerhausen,51.4900212978032,11.1971400617947
+"13",Sachsen-Anhalt,"36",Halle,"360",Weißenfels,51.1934812931466,12.0435669571298
+"13",Sachsen-Anhalt,"37",Magdeburg,"361",Altmarkkreis Salzwedel,52.6778468393157,11.2303734072565
+"13",Sachsen-Anhalt,"37",Magdeburg,"362",Bördekreis,52.0592512265506,11.2849455639221
+"13",Sachsen-Anhalt,"37",Magdeburg,"363",Halberstadt,51.9586544926202,10.9409522816785
+"13",Sachsen-Anhalt,"37",Magdeburg,"364",Jerichower Land,52.2866938099621,12.0282196504171
+"13",Sachsen-Anhalt,"37",Magdeburg,"365",Magdeburg Städte,52.1164367531521,11.6477530161155
+"13",Sachsen-Anhalt,"37",Magdeburg,"366",Ohrekreis,52.3109568936646,11.3953381825497
+"13",Sachsen-Anhalt,"37",Magdeburg,"367",Quedlinburg,51.7286149263053,11.1463512454158
+"13",Sachsen-Anhalt,"37",Magdeburg,"368",Schönebeck,51.9461353292498,11.7732736596353
+"13",Sachsen-Anhalt,"37",Magdeburg,"369",Stendal,52.6928669096957,11.8461496951478
+"13",Sachsen-Anhalt,"37",Magdeburg,"370",Wernigerode,51.7874082504596,10.8063463595646
+"14",Sachsen,"38",Chemnitz,"371",Annaberg,50.5595344779854,12.9877855387078
+"14",Sachsen,"38",Chemnitz,"372",Aue-Schwarzenberg,50.5222747202843,12.6972439658333
+"14",Sachsen,"38",Chemnitz,"373",Chemnitz Städte,50.8338533807227,12.9376423397329
+"14",Sachsen,"38",Chemnitz,"374",Chemnitzer Land,50.8379535968297,12.6576923185991
+"14",Sachsen,"38",Chemnitz,"375",Freiberg,50.8471238835796,13.347669620582
+"14",Sachsen,"38",Chemnitz,"376",Mittlerer Erzgebirgskreis,50.6805816141126,13.1977996409776
+"14",Sachsen,"38",Chemnitz,"377",Mittweida,50.9838896777328,12.9523718588665
+"14",Sachsen,"38",Chemnitz,"378",Plauen Städte,50.4914562766646,12.1519287284427
+"14",Sachsen,"38",Chemnitz,"379",Stollberg,50.7147811708241,12.8280569187461
+"14",Sachsen,"38",Chemnitz,"380",Vogtlandkreis,50.4582777744717,12.2452037445204
+"14",Sachsen,"38",Chemnitz,"381",Zwickau Städte,50.7268703552698,12.4969100483796
+"14",Sachsen,"38",Chemnitz,"382",Zwickauer Land,50.7090601477042,12.4814678917117
+"14",Sachsen,"39",Dresden,"383",Bautzen,51.1724446445508,14.38376563959
+"14",Sachsen,"39",Dresden,"384",Dresden Städte,51.1007457880127,13.798886972661
+"14",Sachsen,"39",Dresden,"385",Görlitz Städte,51.1390305356273,14.9624404717479
+"14",Sachsen,"39",Dresden,"386",Kamenz,51.3439900352161,14.1667571245372
+"14",Sachsen,"39",Dresden,"387",Löbau-Zittau,51.0001228062452,14.7262965083201
+"14",Sachsen,"39",Dresden,"388",Meißen,51.1360202837164,13.4333326751021
+"14",Sachsen,"39",Dresden,"389",Niederschlesischer Oberlausitzkreis,51.3431862833108,14.7652980103845
+"14",Sachsen,"39",Dresden,"390",Riesa-Großenhain,51.3135715255599,13.5104244273903
+"14",Sachsen,"39",Dresden,"391",Sächsische Schweiz,50.9294484649577,14.0622689759307
+"14",Sachsen,"39",Dresden,"392",Weißeritzkreis,50.8799933685703,13.6599739516205
+"14",Sachsen,"40",Leipzig,"393",Döbeln,51.140803521337,13.0840572009679
+"14",Sachsen,"40",Leipzig,"394",Delitzsch,51.5096013395982,12.503134762751
+"14",Sachsen,"40",Leipzig,"395",Leipzig Städte,51.3333944252707,12.3773508129902
+"14",Sachsen,"40",Leipzig,"396",Leipziger Land,51.2046490753362,12.4386381798681
+"14",Sachsen,"40",Leipzig,"397",Muldentalkreis,51.2778226251086,12.750304256696
+"14",Sachsen,"40",Leipzig,"398",Torgau-Oschatz,51.4533150460802,13.0132404223225
+"15",Schleswig-Holstein,"41",Schleswig-Holstein,"399",Dithmarschen,54.1329660408887,9.10667939578088
+"15",Schleswig-Holstein,"41",Schleswig-Holstein,"400",Flensburg Städte,54.7851851885245,9.43312464352931
+"15",Schleswig-Holstein,"41",Schleswig-Holstein,"401",Kiel Städte,54.3325494720652,10.1305019304906
+"15",Schleswig-Holstein,"41",Schleswig-Holstein,"402",Lübeck Städte,53.8775384854415,10.726221561025
+"15",Schleswig-Holstein,"41",Schleswig-Holstein,"403",Lauenburg,53.5968509046384,10.6076504769899
+"15",Schleswig-Holstein,"41",Schleswig-Holstein,"404",Neumünster Städte,54.0883840733796,9.98374645602601
+"15",Schleswig-Holstein,"41",Schleswig-Holstein,"405",Nordfriesland,54.6105304420921,8.88558496373632
+"15",Schleswig-Holstein,"41",Schleswig-Holstein,"406",Ostholstein,54.1933712273403,10.820442934799
+"15",Schleswig-Holstein,"41",Schleswig-Holstein,"407",Pinneberg,53.7246510899617,9.729781936297
+"15",Schleswig-Holstein,"41",Schleswig-Holstein,"408",Plön,54.2463213954738,10.3619096017537
+"15",Schleswig-Holstein,"41",Schleswig-Holstein,"409",Rendsburg-Eckernförde,54.2929999557461,9.77923920683519
+"15",Schleswig-Holstein,"41",Schleswig-Holstein,"410",Schleswig-Flensburg,54.6250026938611,9.5017608231197
+"15",Schleswig-Holstein,"41",Schleswig-Holstein,"411",Segeberg,53.9269733907008,10.1414457199315
+"15",Schleswig-Holstein,"41",Schleswig-Holstein,"412",Steinburg,53.9305480919803,9.51163614957228
+"15",Schleswig-Holstein,"41",Schleswig-Holstein,"413",Stormarn,53.7283231879227,10.3376075381766
+"16",Thüringen,"42",Thüringen,"414",Altenburger Land,50.9611072104462,12.4124369039453
+"16",Thüringen,"42",Thüringen,"415",Eichsfeld,51.3824359572111,10.2570777972633
+"16",Thüringen,"42",Thüringen,"416",Erfurt Städte,50.9813771361473,11.021291764145
+"16",Thüringen,"42",Thüringen,"417",Gera Städte,50.8988256540396,12.0928976405629
+"16",Thüringen,"42",Thüringen,"418",Gotha,50.9078021529201,10.696103897861
+"16",Thüringen,"42",Thüringen,"419",Greiz,50.7528869364476,12.084027879225
+"16",Thüringen,"42",Thüringen,"420",Hildburghausen,50.4303388864199,10.737221624062
+"16",Thüringen,"42",Thüringen,"421",Ilm-Kreis,50.7356238607667,10.967331622749
+"16",Thüringen,"42",Thüringen,"422",Jena Städte,50.926389089532,11.5912094974363
+"16",Thüringen,"42",Thüringen,"423",Kyffhäuserkreis,51.3234920406251,10.9873375445517
+"16",Thüringen,"42",Thüringen,"424",Nordhausen,51.500771995118,10.7345418663591
+"16",Thüringen,"42",Thüringen,"425",Sömmerda,51.1572695672606,11.1566423905482
+"16",Thüringen,"42",Thüringen,"426",Saale-Holzland,50.9065289256123,11.7365630002954
+"16",Thüringen,"42",Thüringen,"427",Saale-Orla,50.5827910782258,11.7144335844325
+"16",Thüringen,"42",Thüringen,"428",Saalfeld-Rudolstadt,50.6381122064704,11.3105961873874
+"16",Thüringen,"42",Thüringen,"429",Schmalkalden-Meiningen,50.6288782745459,10.4075194702194
+"16",Thüringen,"42",Thüringen,"430",Sonneberg,50.4126283837394,11.1338573958308
+"16",Thüringen,"42",Thüringen,"431",Suhl Städte,50.608040556061,10.6906530816567
+"16",Thüringen,"42",Thüringen,"432",Unstrut-Hainich,51.1823371776702,10.5550458340747
+"16",Thüringen,"42",Thüringen,"433",Wartburgkreis,50.892624540694,10.2183344294329
+"16",Thüringen,"42",Thüringen,"434",Weimar Städte,50.9778379058347,11.3202314816491
+"16",Thüringen,"42",Thüringen,"435",Weimarer Land,50.9729535557127,11.3758817635595

@@ -40,7 +40,81 @@
       padding: 30px 30px 0px 30px;
     }
 
-    select option { color: rgb(140, 0, 255); }
+    select option {
+      color: rgb(140, 0, 255);
+    }
+
+    #viewButton:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+
+    #viewButton {
+      position: absolute;
+      top: 50px;
+      right: 20px;
+      padding: 8px;
+      z-index: 400;
+      background: #27293d;
+      color: rgb(242, 242, 246);
+    }
+
+    .legend {
+      padding: 6px 8px;
+      font: 14px Arial, Helvetica, sans-serif;
+      background: #27293d;
+      /* background: rgba(3, 33, 92, 0.8); */
+      /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);*/
+      /*border-radius: 5px;*/
+      line-height: 24px;
+      color: rgb(242, 242, 246);
+    }
+
+    .legend h4 {
+      text-align: center;
+      font-size: 16px;
+      margin: 2px 12px 8px;
+      color: rgb(250, 247, 247);
+    }
+
+    .legend span {
+      position: relative;
+      bottom: 3px;
+    }
+
+    .legend i {
+      width: 18px;
+      height: 18px;
+      float: left;
+      margin: 0 8px 0 0;
+      opacity: 1;
+    }
+
+    .loader {
+      border: 16px groove #b9e0f4;
+      border-radius: 50%;
+      border-top: 16px groove #27293d;
+      width: 100px;
+      height: 100px;
+      position:absolute; /* screen size takes as spatial reference */
+      bottom: 50%;
+      right:50%;
+      transform:translate(-50%,-50%); /* center position the container*/
+      display:none;
+      z-index:10000; /* when a layer is not shown after all, use z-index (the higher the index the frontal the layer comes) */
+      animation: spin 2s linear infinite;
+      /* spin animator name, 2s - time it takes to complete 1 cycle, linear - speed, infinite - continous spin */
+    }
+/* keyframes is used to create animation, it takes values in %, 0 - animation start, 100 - animation end */
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
   </style>
 </head>
 
@@ -49,6 +123,7 @@
     <div class="main-panel">
       <!-- I removed wrapper class and main-panel-->
       <div class="content">
+        <div class="loader"></div>
         <div class="row">
           <div class="col-8">
             <div class="card card-chart h-100">
@@ -59,7 +134,8 @@
                   </div>
                 </div>
                 <div class="card-body">
-                    <div id="main-map" style="height: 600px";></div>
+                  <div id="main-map" style="height: 600px" ;></div>
+                  <button id="viewButton" onclick=setView()>View All</button>
                 </div>
               </div>
             </div>
@@ -74,11 +150,13 @@
                       <h2 class="card-title">Weekly Levels</h2>
                     </div>
                     <div class="col-sm-6">
-                      <select class='form-control' onchange="selectDataset(this);"> <!--this denotes reference of dom element-->
+                      <select class='form-control' onchange="selectDataset(this);">
+                        <!--this denotes reference of dom element-->
                         <option value="no2_level">no2</option>
                         <option value="pm2_5_level">pm2.5</option>
                         <option value="pm10_level">pm10</option>
-                      </select> <!--this is called selectbox or combobox or dropdown-->
+                      </select>
+                      <!--this is called selectbox or combobox or dropdown-->
                     </div>
                   </div>
                 </div>
@@ -96,9 +174,9 @@
                   <h3 class="card-title" id="aqi"></h3>
                 </div>
                 <div class="card-body pl-5">
-                  <h6 class="pb-3">no2: <span id ='no2'></span></h6>
-                  <h6 class="pb-3">pm2.5: <span id = 'pm2_5'></span></h6>
-                  <h6 class="pb-3">pm10: <span id = 'pm10'></span></h6>
+                  <h6 class="pb-3">no2: <span id='no2'></span></h6>
+                  <h6 class="pb-3">pm2.5: <span id='pm2_5'></span></h6>
+                  <h6 class="pb-3">pm10: <span id='pm10'></span></h6>
                 </div>
               </div>
             </div>
@@ -130,29 +208,33 @@
   <script src="//www.amcharts.com/lib/4/themes/dark.js"></script>
   <script src="https://github.com/evanplaice/jquery-csv/blob/main/src/jquery.csv.js"></script>
   <script src="mask.js"></script>
-  <script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+  <script> // a script to declare the leaflet map container
     const map = L.map('main-map').setView([51.288690620342415, 10.190006746243379], 6);
     const layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
       attribution: '© OpenStreetMap contributors, © CartoDB'
     });
     map.addLayer(layer);
-    L.mask('DE-border.geojson', {interactive:true, color:'#4e7793', weight:1, fillColor:'#000',fillOpacity:0.7}).addTo(map);
+    L.mask('DE-border.geojson', { interactive: true, restrictBounds: false, color: '#4e7793', weight: 1, fillColor: '#000', fillOpacity: 0.7 }).addTo(map);
 
+    // url_response function gives geojson response for any url, geojson, json
     function url_response(url) {
-			return $.ajax(url,{method:'get',cache:false,dataType:'JSON'});
-		}
-
+      return $.ajax(url, { method: 'get', cache: false, dataType: 'JSON' });
+    }
   </script>
 
-  <script>
-    let lat = null
-    let lng = null
+
+  <script> // a script for graph and label container
+    let lat = 51.288690620342415 // subject to change when map.click is on, when given const the lat won't change
+    let lng = 10.190006746243379
     let value_pollution = 'no2_level'
+    api_calling();
+    api_labels_calling();
 
     function selectDataset(reference) {
       let value = $(reference).val() //  $() - jquery selector. val() - getter and setter for value. for setting the value give a parameter inside.
       value_pollution = value;
-      console.log(value_pollution)
       api_calling();
     }
 
@@ -172,81 +254,257 @@
     chart.cursor.snapToSeries = series;
 
     async function api_calling() {
-      var curr = new Date; 
-      var today = curr.getDate(); 
+      var curr = new Date;
+      var today = curr.getDate();
       var before = today - 6;
-      var start = Math.round(new Date(curr.setDate(before)).getTime()/1000);
-      var end = Math.round(new Date(curr.setDate(today)).getTime()/1000);
-      if (lat==null||lng==null) {
-        return;
-      }
+      var start = Math.round(new Date(curr.setDate(before)).getTime() / 1000);
+      var end = Math.round(new Date(curr.setDate(today)).getTime() / 1000);
+      // if (lat == null || lng == null) {
+      //  return;
+      //}
       const url = `http://api.openweathermap.org/data/2.5/air_pollution/history?lat=${lat}&lon=${lng}&start=${start}&end=${end}&appid=8aa236d300bbae398461f170310bcd37`
       const response = await url_response(url)
-      let no2_level=[]
+      let no2_level = []
       let pm2_5_level = []
       let pm10_level = []
       for (let i = 0; i < response.list.length; i++) {
-        no2_level.push({dt:response.list[i].dt*1000, level:response.list[i].components.no2});
-        pm2_5_level.push({dt:response.list[i].dt*1000, level:response.list[i].components.pm2_5});
-        pm10_level.push({dt:response.list[i].dt*1000, level:response.list[i].components.pm10});
+        no2_level.push({ dt: response.list[i].dt * 1000, level: response.list[i].components.no2 });
+        pm2_5_level.push({ dt: response.list[i].dt * 1000, level: response.list[i].components.pm2_5 });
+        pm10_level.push({ dt: response.list[i].dt * 1000, level: response.list[i].components.pm10 });
       }
 
-      var data = {"no2_level": no2_level, "pm2_5_level" : pm2_5_level , "pm10_level": pm10_level};
+      var data = { "no2_level": no2_level, "pm2_5_level": pm2_5_level, "pm10_level": pm10_level };
 
       chart.data = data[value_pollution]
     }
 
-    map.on('click', async function(e) {
-      lat = e.latlng.lat;
-      lng = e.latlng.lng;
-      api_calling();
+    async function api_labels_calling() {
       const url = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lng}&appid=8aa236d300bbae398461f170310bcd37`
       const response = await url_response(url);
-      console.log(response)
+      // console.log(response)
       let temp = "";
-      if (response.list[0].main.aqi == 1) temp="Good"
-      else if (response.list[0].main.aqi == 2) temp ="Fair"
-      else if (response.list[0].main.aqi == 3) temp ="Moderate"
-      else if (response.list[0].main.aqi == 4) temp ="Poor"
-      else temp ="Very Poor"
+      if (response.list[0].main.aqi == 1) temp = "Good"
+      else if (response.list[0].main.aqi == 2) temp = "Fair"
+      else if (response.list[0].main.aqi == 3) temp = "Moderate"
+      else if (response.list[0].main.aqi == 4) temp = "Poor"
+      else temp = "Very Poor"
       $('#aqi').text(temp)
 
       let no2 = "", pm2_5 = "", pm10 = "";
-      
-      if (response.list[0].components.no2 < 50) no2 ="Good"
-      else if (response.list[0].components.no2 < 100) no2 ="Fair"
-      else if (response.list[0].components.no2 < 200) no2 ="Moderate"
-      else if (response.list[0].components.no2 < 400) no2 ="Poor"
-      else no2 ="Very Poor"
-      if (response.list[0].components.pm2_5 < 15) pm2_5 ="Good"
-      else if (response.list[0].components.pm2_5 < 30) pm2_5 ="Fair"
-      else if (response.list[0].components.pm2_5 < 55) pm2_5 ="Moderate"
-      else if (response.list[0].components.pm2_5 < 110) pm2_5 ="Poor"
-      else pm2_5 ="Very Poor"
-      if (response.list[0].components.pm10 < 25) pm10 ="Good"
-      else if (response.list[0].components.pm10 < 50) pm10 ="Fair"
-      else if (response.list[0].components.pm10 < 90) pm10 ="Moderate"
-      else if (response.list[0].components.pm10 < 180) pm10 ="Poor"
-      else pm10 ="Very Poor"
 
-      let dict ={'Good':'#09FF00','Fair':'#E6FF00', 'Moderate':'#FFB401', 'Poor':'#FF0101', 'Very Poor':'#FF0101'}
-      $('#no2').html("<span style='color:"+dict[no2]+"'>"+no2+"</span>")
-      $('#pm2_5').html("<span style='color:"+dict[pm2_5]+"'>"+pm2_5+"</span>")
-      $('#pm10').html("<span style='color:"+dict[pm10]+"'>"+pm10+"</span>")
+      if (response.list[0].components.no2 < 50) no2 = "Good"
+      else if (response.list[0].components.no2 < 100) no2 = "Fair"
+      else if (response.list[0].components.no2 < 200) no2 = "Moderate"
+      else if (response.list[0].components.no2 < 400) no2 = "Poor"
+      else no2 = "Very Poor"
+      if (response.list[0].components.pm2_5 < 15) pm2_5 = "Good"
+      else if (response.list[0].components.pm2_5 < 30) pm2_5 = "Fair"
+      else if (response.list[0].components.pm2_5 < 55) pm2_5 = "Moderate"
+      else if (response.list[0].components.pm2_5 < 110) pm2_5 = "Poor"
+      else pm2_5 = "Very Poor"
+      if (response.list[0].components.pm10 < 25) pm10 = "Good"
+      else if (response.list[0].components.pm10 < 50) pm10 = "Fair"
+      else if (response.list[0].components.pm10 < 90) pm10 = "Moderate"
+      else if (response.list[0].components.pm10 < 180) pm10 = "Poor"
+      else pm10 = "Very Poor"
+
+      let dict = { 'Good': '#09FF00', 'Fair': '#E6FF00', 'Moderate': '#FFB401', 'Poor': '#FF0101', 'Very Poor': '#FF0101' }
+      $('#no2').html("<span style='color:" + dict[no2] + "'>" + no2 + "</span>") // if you want to select anything use jquery $ function name 
+      $('#pm2_5').html("<span style='color:" + dict[pm2_5] + "'>" + pm2_5 + "</span>")
+      $('#pm10').html("<span style='color:" + dict[pm10] + "'>" + pm10 + "</span>")
+
+    }
+
+    map.on('click', async function (e) {
+      lat = e.latlng.lat;
+      lng = e.latlng.lng;
+      api_calling();
+      api_labels_calling();
+      
     })
   </script>
 
-  <script>
-    function heat_map() {
-      let lat, lng, name
-      let coord = []
-      coord.push({'lat': lat, 'lng': lng, 'state':name});
-
+  <script> // a script for all map choropleth map activity
+    // setView function for map button
+    function setView() {
+      map.setView([51.288690620342415, 10.190006746243379], 6);
+      map.removeLayer(dist_geojson);
+      choropleth_map();
+      // map.addLayer(geojson);
     }
+
+    var geojson, dist_geojson; // var - varying and global variable
+
+    async function choropleth_map() {
+      let state_coord = [] // state level centroid coordinate data manually entered
+      state_coord.push({ 'lat': 48.5485063306352, 'lng': 9.04936543252633, 'state': 'Baden-Württemberg' }); // key can be given as string only if it has _ in it
+      state_coord.push({ 'lat': 48.9468951099823, 'lng': 11.4232202698349, 'state': 'Bayern' });
+      state_coord.push({ 'lat': 52.4993362056014, 'lng': 13.4087824776989, 'state': 'Berlin' });
+      state_coord.push({ 'lat': 52.4732802850267, 'lng': 13.3990663608094, 'state': 'Brandenburg' });
+      state_coord.push({ 'lat': 53.1930925192729, 'lng': 8.74869103850634, 'state': 'Bremen' });
+      state_coord.push({ 'lat': 53.5545681838457, 'lng': 10.0272087465564, 'state': 'Hamburg' });
+      state_coord.push({ 'lat': 50.6022126271227, 'lng': 9.03943797909172, 'state': 'Hessen' });
+      state_coord.push({ 'lat': 53.7531202097759, 'lng': 12.5375838517419, 'state': 'Mecklenburg-Vorpommern' });
+      state_coord.push({ 'lat': 52.7691309413087, 'lng': 9.17084253951801, 'state': 'Niedersachsen' });
+      state_coord.push({ 'lat': 51.4766734127486, 'lng': 7.56652859821656, 'state': 'Nordrhein-Westfalen' });
+      state_coord.push({ 'lat': 49.9149122791018, 'lng': 7.45423416629792, 'state': 'Rheinland-Pfalz' });
+      state_coord.push({ 'lat': 49.3866270400033, 'lng': 6.95702724275626, 'state': 'Saarland' });
+      state_coord.push({ 'lat': 52.0119372644741, 'lng': 11.7054956704455, 'state': 'Sachsen-Anhalt' });
+      state_coord.push({ 'lat': 51.051254930859, 'lng': 13.3541361722235, 'state': 'Sachsen' });
+      state_coord.push({ 'lat': 54.1888268344113, 'lng': 9.80582809958815, 'state': 'Schleswig-Holstein' });
+      state_coord.push({ 'lat': 50.9029749669877, 'lng': 11.0304845662389, 'state': 'Thüringen' });
+      // state level choropleth map
+      for (let i = 0; i < state_coord.length; i++) {
+        state_coord[i]
+        const url = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${state_coord[i].lat}&lon=${state_coord[i].lng}&appid=8aa236d300bbae398461f170310bcd37`
+        const response = await url_response(url)
+        // console.log(response)
+        state_coord[i]['aqi'] = response.list[0].main.aqi;
+        // console.log(state_coord[i])
+      }
+
+      const state_boundary = await url_response('DE-boundary.geojson')
+
+      geojson = L.geoJson(state_boundary, {
+        style: style,
+        onEachFeature: onEachFeature // call back function (azhaya viruthali) 
+      }).addTo(map);
+
+      // creating choropleth map based on aqi
+      function style(feature) {
+        for (let i = 0; i < state_coord.length; i++) {
+          if (state_coord[i].state == feature.properties.NAME_1) {
+            return {
+              // "color": getColor(state_coord[i].aqi),
+              "fillColor": getColor(state_coord[i].aqi),
+              "fillOpacity": 0.7,
+              "color": 'white',
+              dashArray: '2',
+              "weight": 1,
+            }
+          }
+        }
+      }
+      // ADDING HIGHLIGHTED POLYGONS IN MAP SECTION 
+      function onEachFeature(feature, layer) { // feature (geojson property) , layer - whole geojson
+        layer.on({
+          mouseover: highlightFeature,
+          mouseout: resetHighlight,
+          click: zoomToFeature, // click is the event that calls the function 
+        });
+      }
+
+      function highlightFeature(e) {
+        var layer = e.target;
+        layer.setStyle({
+          weight: 3,
+          color: 'white',
+          dashArray: '',
+          fillOpacity: 0.7
+        });
+        layer.bringToFront();
+      }
+
+      function resetHighlight(e) {
+        geojson.resetStyle(e.target);
+      }
+
+      let iszoomedin = false; // zoom out default
+      async function zoomToFeature(e) {
+        if (iszoomedin == true) {
+          map.setView([51.288690620342415, 10.190006746243379], 6);
+          iszoomedin = false;
+        }
+        else {
+          map.fitBounds(e.target.getBounds());
+          $('.loader').show();
+          town_aqi(e.target.feature.properties.ID_1);
+          iszoomedin = true;
+        }
+      }
+
+      // town_level choropleth map
+      async function town_aqi(ID_1) {
+        const towncentroid_geojson = await url_response('DEU_adm3.json');
+        // console.log(town_geojson.ID_1);
+        // console.log(ID_1);
+        for (let i = 0; i < towncentroid_geojson.length; i++) {
+          if (towncentroid_geojson[i].ID_1 == ID_1) {
+            const url = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${towncentroid_geojson[i].lat}&lon=${towncentroid_geojson[i].lng}&appid=8aa236d300bbae398461f170310bcd37`
+            const towncentroid_response = await url_response(url)
+            // console.log(town_response.list[0].main.aqi)
+            towncentroid_geojson[i]['aqi'] = towncentroid_response.list[0].main.aqi;
+          }
+        }
+
+        const distboundary_json = await url_response(`${ID_1}.geojson`) // ${} use pananu na - you have to use ``
+        dist_geojson = L.geoJson(distboundary_json, {
+          style: style2,
+          // onEachFeature: onEachFeature // call back function (azhaya viruthali) we don't want this here
+        });
+
+        dist_geojson.addTo(map); // L.geojson creates geojson from geojson variable because leaflet doesn't know that the variable is geojson
+        map.removeLayer(geojson);
+
+        function style2(feature) {
+          for (let i = 0; i < towncentroid_geojson.length; i++) {
+            if (towncentroid_geojson[i].ID_3 == feature.properties.ID_3) {
+              return {
+                // "color": getColor(state_coord[i].aqi),
+                "fillColor": getColor(towncentroid_geojson[i].aqi),
+                "fillOpacity": 0.7,
+                "color": 'white',
+                dashArray: '2',
+                "weight": 1,
+              }
+            }
+          }
+        }
+        $('.loader').hide();
+      }
+
+      function getColor(x) {
+        return x < 2 ? '#09FF00' :
+          x < 3 ? '#E6FF00' :
+            x < 4 ? '#FFB401' :
+              x < 5 ? '#FF0101' :
+                '#FF0101';
+      };
+    }
+    choropleth_map()
+
+    // ADDING LEGEND IN MAP SECTION
+    var legend = L.control({ position: 'bottomright' });
+    legend.onAdd = function () {
+
+      var div = L.DomUtil.create('div', 'legend');
+      div.innerHTML += "<h4>Air Quality Index</h4>";
+      div.innerHTML += '<i style="background: #09FF00"></i><span>Good</span><br>';
+      div.innerHTML += '<i style="background: #E6FF00"></i><span>Fair</span><br>';
+      div.innerHTML += '<i style="background: #FFB401"></i><span>Moderate</span><br>';
+      div.innerHTML += '<i style="background: #FF0101"></i><span>Poor</span><br>';
+      div.innerHTML += '<i style="background: #FF0101"></i><span>Very Poor</span><br>';
+      // Quality = ['Good', 'Fair', 'Moderate', 'Poor', 'Very Poor'];
+
+      // let content = '<strong>Quality</strong>';
+      // for (let i = 0; i < Quality.length; i++) {
+      //  content = content + `<div style='color:${getColorbyvalue(Quality[i])}'>${Quality[i]}</div>`
+      //}
+      //div.innerHTML = content;
+      return div;
+    };
+    legend.addTo(map);
+
+    function getColorbyvalue(x) {
+      return x == 'Good' ? '#09FF00' :
+        x == 'Fair' ? '#E6FF00' :
+          x == 'Moderate' ? '#FFB401' :
+            x == 'Poor' ? '#FF0101' :
+              '#FF0101';
+    };
   </script>
 </body>
 
 <!-- setter - user defined value setted by this method-->
 
 </html>
-

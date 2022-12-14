@@ -1,0 +1,4352 @@
+[
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 1,
+    "NAME_2": "Freiburg",
+    "ID_3": 1,
+    "NAME_3": "Breisgau-Hochschwarzwald",
+    "lat": 47.9291496420949,
+    "lng": 7.92270389005155
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 1,
+    "NAME_2": "Freiburg",
+    "ID_3": 2,
+    "NAME_3": "Emmendingen",
+    "lat": 48.1510588276405,
+    "lng": 7.89766214203595
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 1,
+    "NAME_2": "Freiburg",
+    "ID_3": 3,
+    "NAME_3": "Freiburg",
+    "lat": 47.9951303612005,
+    "lng": 7.82134604398118
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 1,
+    "NAME_2": "Freiburg",
+    "ID_3": 4,
+    "NAME_3": "Konstanz",
+    "lat": 47.8023895918749,
+    "lng": 8.90895343797024
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 1,
+    "NAME_2": "Freiburg",
+    "ID_3": 5,
+    "NAME_3": "Lörrach \nLörrach",
+    "lat": 47.7076448729134,
+    "lng": 7.77114830628101
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 1,
+    "NAME_2": "Freiburg",
+    "ID_3": 6,
+    "NAME_3": "Ortenaukreis",
+    "lat": 48.4227087852369,
+    "lng": 8.01544652165343
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 1,
+    "NAME_2": "Freiburg",
+    "ID_3": 7,
+    "NAME_3": "Rottweil",
+    "lat": 48.2570397512983,
+    "lng": 8.52807462682658
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 1,
+    "NAME_2": "Freiburg",
+    "ID_3": 8,
+    "NAME_3": "Schwarzwald-Baar-Kreis",
+    "lat": 48.0229632131854,
+    "lng": 8.40585703367701
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 1,
+    "NAME_2": "Freiburg",
+    "ID_3": 9,
+    "NAME_3": "Tuttlingen",
+    "lat": 48.015309828434,
+    "lng": 8.78673309646161
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 1,
+    "NAME_2": "Freiburg",
+    "ID_3": 10,
+    "NAME_3": "Waldshut",
+    "lat": 47.7014334734314,
+    "lng": 8.21790000161548
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 2,
+    "NAME_2": "Karlsruhe",
+    "ID_3": 11,
+    "NAME_3": "Baden-Baden Städte",
+    "lat": 48.7489517830559,
+    "lng": 8.23381726449297
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 2,
+    "NAME_2": "Karlsruhe",
+    "ID_3": 12,
+    "NAME_3": "Calw",
+    "lat": 48.6797800352438,
+    "lng": 8.63627817523609
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 2,
+    "NAME_2": "Karlsruhe",
+    "ID_3": 13,
+    "NAME_3": "Enz",
+    "lat": 48.9181150484276,
+    "lng": 8.74009652433432
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 2,
+    "NAME_2": "Karlsruhe",
+    "ID_3": 14,
+    "NAME_3": "Freudenstadt",
+    "lat": 48.4765226193335,
+    "lng": 8.46297514568041
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 2,
+    "NAME_2": "Karlsruhe",
+    "ID_3": 15,
+    "NAME_3": "Heidelberg Städte",
+    "lat": 49.4124098577105,
+    "lng": 8.69406875281766
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 2,
+    "NAME_2": "Karlsruhe",
+    "ID_3": 16,
+    "NAME_3": "Karlsruhe Städte",
+    "lat": 49.0144664421806,
+    "lng": 8.41479166888886
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 2,
+    "NAME_2": "Karlsruhe",
+    "ID_3": 17,
+    "NAME_3": "Karlsruhe",
+    "lat": 49.0867861001585,
+    "lng": 8.56417942391721
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 2,
+    "NAME_2": "Karlsruhe",
+    "ID_3": 18,
+    "NAME_3": "Mannheim Städte",
+    "lat": 49.5023922486487,
+    "lng": 8.50269886771825
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 2,
+    "NAME_2": "Karlsruhe",
+    "ID_3": 19,
+    "NAME_3": "Neckar-Odenwald-Kreis",
+    "lat": 49.4666029564695,
+    "lng": 9.28717710526968
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 2,
+    "NAME_2": "Karlsruhe",
+    "ID_3": 20,
+    "NAME_3": "Pforzheim Städte",
+    "lat": 48.8786876466834,
+    "lng": 8.71345749276723
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 2,
+    "NAME_2": "Karlsruhe",
+    "ID_3": 21,
+    "NAME_3": "Rastatt",
+    "lat": 48.7638745325216,
+    "lng": 8.24222584166757
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 2,
+    "NAME_2": "Karlsruhe",
+    "ID_3": 22,
+    "NAME_3": "Rhein-Neckar-Kreis",
+    "lat": 49.3753769450435,
+    "lng": 8.76817982001459
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 3,
+    "NAME_2": "Stuttgart",
+    "ID_3": 23,
+    "NAME_3": "Böblingen",
+    "lat": 48.6789595481294,
+    "lng": 8.94382368803189
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 3,
+    "NAME_2": "Stuttgart",
+    "ID_3": 24,
+    "NAME_3": "Esslingen",
+    "lat": 48.6486385680377,
+    "lng": 9.37131161517176
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 3,
+    "NAME_2": "Stuttgart",
+    "ID_3": 25,
+    "NAME_3": "Göppingen",
+    "lat": 48.6645408720602,
+    "lng": 9.72174332701382
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 3,
+    "NAME_2": "Stuttgart",
+    "ID_3": 26,
+    "NAME_3": "Heidenheim",
+    "lat": 48.6672354412655,
+    "lng": 10.1885962840708
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 3,
+    "NAME_2": "Stuttgart",
+    "ID_3": 27,
+    "NAME_3": "Heilbronn city Städte",
+    "lat": 49.153653114101,
+    "lng": 9.18712727450867
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 3,
+    "NAME_2": "Stuttgart",
+    "ID_3": 28,
+    "NAME_3": "Heilbronn",
+    "lat": 49.1786169200975,
+    "lng": 9.19345223644586
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 3,
+    "NAME_2": "Stuttgart",
+    "ID_3": 29,
+    "NAME_3": "Hohenlohe",
+    "lat": 49.2680492229863,
+    "lng": 9.62302199800556
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 3,
+    "NAME_2": "Stuttgart",
+    "ID_3": 30,
+    "NAME_3": "Ludwigsburg",
+    "lat": 48.9411428539452,
+    "lng": 9.12596488424925
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 3,
+    "NAME_2": "Stuttgart",
+    "ID_3": 31,
+    "NAME_3": "Main-Tauber",
+    "lat": 49.5563901110207,
+    "lng": 9.7337480419066
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 3,
+    "NAME_2": "Stuttgart",
+    "ID_3": 32,
+    "NAME_3": "Ostalbkreis",
+    "lat": 48.8793576041074,
+    "lng": 10.0991113234256
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 3,
+    "NAME_2": "Stuttgart",
+    "ID_3": 33,
+    "NAME_3": "Rems-Murr-Kreis",
+    "lat": 48.8984384615516,
+    "lng": 9.50635319060182
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 3,
+    "NAME_2": "Stuttgart",
+    "ID_3": 34,
+    "NAME_3": "Schwäbisch Hall",
+    "lat": 49.142533040265,
+    "lng": 9.91761916229863
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 3,
+    "NAME_2": "Stuttgart",
+    "ID_3": 35,
+    "NAME_3": "Stuttgart Städte",
+    "lat": 48.7753012103391,
+    "lng": 9.17433604070473
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 4,
+    "NAME_2": "Tübingen",
+    "ID_3": 36,
+    "NAME_3": "Alb-Donau",
+    "lat": 48.4049153177887,
+    "lng": 9.83033785297724
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 4,
+    "NAME_2": "Tübingen",
+    "ID_3": 37,
+    "NAME_3": "Biberach",
+    "lat": 48.1106928015943,
+    "lng": 9.77529489914293
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 4,
+    "NAME_2": "Tübingen",
+    "ID_3": 38,
+    "NAME_3": "Bodensee",
+    "lat": 47.7365223032041,
+    "lng": 9.40275931233138
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 4,
+    "NAME_2": "Tübingen",
+    "ID_3": 39,
+    "NAME_3": "Ravensburg",
+    "lat": 47.8278560135106,
+    "lng": 9.77925817348295
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 4,
+    "NAME_2": "Tübingen",
+    "ID_3": 40,
+    "NAME_3": "Reutlingen",
+    "lat": 48.4078407571132,
+    "lng": 9.36651406803462
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 4,
+    "NAME_2": "Tübingen",
+    "ID_3": 41,
+    "NAME_3": "Sigmaringen",
+    "lat": 48.041548388682,
+    "lng": 9.23699069315324
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 4,
+    "NAME_2": "Tübingen",
+    "ID_3": 42,
+    "NAME_3": "Tübingen",
+    "lat": 48.4828823974063,
+    "lng": 8.98648794274387
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 4,
+    "NAME_2": "Tübingen",
+    "ID_3": 43,
+    "NAME_3": "Ulm Städte",
+    "lat": 48.3952388891953,
+    "lng": 9.9536590532974
+  },
+  {
+    "ID_1": 1,
+    "NAME_1": "Baden-Württemberg",
+    "ID_2": 4,
+    "NAME_2": "Tübingen",
+    "ID_3": 44,
+    "NAME_3": "Zollernalbkreis",
+    "lat": 48.2694771593314,
+    "lng": 8.93414279259009
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 5,
+    "NAME_2": "Mittelfranken",
+    "ID_3": 45,
+    "NAME_3": "Ansbach Städte",
+    "lat": 49.2908479895928,
+    "lng": 10.5723582492406
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 5,
+    "NAME_2": "Mittelfranken",
+    "ID_3": 46,
+    "NAME_3": "Ansbach",
+    "lat": 49.2463760785857,
+    "lng": 10.4781143624107
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 5,
+    "NAME_2": "Mittelfranken",
+    "ID_3": 47,
+    "NAME_3": "Erlangen-Höchstadt",
+    "lat": 49.637594792526,
+    "lng": 10.9229276463557
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 5,
+    "NAME_2": "Mittelfranken",
+    "ID_3": 48,
+    "NAME_3": "Erlangen Städte",
+    "lat": 49.5808575341313,
+    "lng": 10.9849151860434
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 5,
+    "NAME_2": "Mittelfranken",
+    "ID_3": 49,
+    "NAME_3": "Fürth Städte",
+    "lat": 49.488843717524,
+    "lng": 10.9725318453657
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 5,
+    "NAME_2": "Mittelfranken",
+    "ID_3": 50,
+    "NAME_3": "Fürth",
+    "lat": 49.4439864004415,
+    "lng": 10.8573894664576
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 5,
+    "NAME_2": "Mittelfranken",
+    "ID_3": 51,
+    "NAME_3": "Nürnberger Land",
+    "lat": 49.4917293308497,
+    "lng": 11.3729881880633
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 5,
+    "NAME_2": "Mittelfranken",
+    "ID_3": 52,
+    "NAME_3": "Neustadt-Bad Windsheim",
+    "lat": 49.5652459437847,
+    "lng": 10.4712793302441
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 5,
+    "NAME_2": "Mittelfranken",
+    "ID_3": 53,
+    "NAME_3": "Nuremberg Städte",
+    "lat": 49.4349821191786,
+    "lng": 11.0848271701584
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 5,
+    "NAME_2": "Mittelfranken",
+    "ID_3": 54,
+    "NAME_3": "Roth",
+    "lat": 49.1992112297288,
+    "lng": 11.130022281063
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 5,
+    "NAME_2": "Mittelfranken",
+    "ID_3": 55,
+    "NAME_3": "Schwabach Städte",
+    "lat": 49.3322137650491,
+    "lng": 11.0305114163101
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 5,
+    "NAME_2": "Mittelfranken",
+    "ID_3": 56,
+    "NAME_3": "Weißenburg-Gunzenhausen",
+    "lat": 49.0294363538279,
+    "lng": 10.9027777287697
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 6,
+    "NAME_2": "Niederbayern",
+    "ID_3": 57,
+    "NAME_3": "Deggendorf",
+    "lat": 48.7843358331287,
+    "lng": 13.0058209164425
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 6,
+    "NAME_2": "Niederbayern",
+    "ID_3": 58,
+    "NAME_3": "Dingolfing-Landau",
+    "lat": 48.6453889593369,
+    "lng": 12.6136971483247
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 6,
+    "NAME_2": "Niederbayern",
+    "ID_3": 59,
+    "NAME_3": "Freyung-Grafenau",
+    "lat": 48.8297110635232,
+    "lng": 13.5150347941039
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 6,
+    "NAME_2": "Niederbayern",
+    "ID_3": 60,
+    "NAME_3": "Kelheim",
+    "lat": 48.8235436640366,
+    "lng": 11.8591543175708
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 6,
+    "NAME_2": "Niederbayern",
+    "ID_3": 61,
+    "NAME_3": "Landshut Städte",
+    "lat": 48.5435461176386,
+    "lng": 12.1596175962163
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 6,
+    "NAME_2": "Niederbayern",
+    "ID_3": 62,
+    "NAME_3": "Landshut",
+    "lat": 48.5581118503064,
+    "lng": 12.1977129974565
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 6,
+    "NAME_2": "Niederbayern",
+    "ID_3": 63,
+    "NAME_3": "Passau Städte",
+    "lat": 48.5880106117417,
+    "lng": 13.4156356206056
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 6,
+    "NAME_2": "Niederbayern",
+    "ID_3": 64,
+    "NAME_3": "Passau",
+    "lat": 48.5621340074023,
+    "lng": 13.368837919117
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 6,
+    "NAME_2": "Niederbayern",
+    "ID_3": 65,
+    "NAME_3": "Regen",
+    "lat": 49.0264123010191,
+    "lng": 13.103755493173
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 6,
+    "NAME_2": "Niederbayern",
+    "ID_3": 66,
+    "NAME_3": "Rottal-Inn",
+    "lat": 48.4317682103766,
+    "lng": 12.8712589281584
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 6,
+    "NAME_2": "Niederbayern",
+    "ID_3": 67,
+    "NAME_3": "Straubing-Bogen",
+    "lat": 48.9035471264679,
+    "lng": 12.58504174393
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 6,
+    "NAME_2": "Niederbayern",
+    "ID_3": 68,
+    "NAME_3": "Straubing Städte",
+    "lat": 48.8846520438497,
+    "lng": 12.5755156218505
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 69,
+    "NAME_3": "Altötting",
+    "lat": 48.2156013837989,
+    "lng": 12.710636588651
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 70,
+    "NAME_3": "Bad Tölz-Wolfratshausen",
+    "lat": 47.7244917642074,
+    "lng": 11.488394048743
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 71,
+    "NAME_3": "Berchtesgadener Land",
+    "lat": 47.7004175751192,
+    "lng": 12.9033713467916
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 72,
+    "NAME_3": "Dachau",
+    "lat": 48.3309780981817,
+    "lng": 11.3615210748027
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 73,
+    "NAME_3": "Ebersberg",
+    "lat": 48.0734022744984,
+    "lng": 11.9167477017876
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 74,
+    "NAME_3": "Eichstätt",
+    "lat": 48.8938799938417,
+    "lng": 11.3764885021668
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 75,
+    "NAME_3": "Erding",
+    "lat": 48.2986984890519,
+    "lng": 12.0031087064738
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 76,
+    "NAME_3": "Fürstenfeldbruck",
+    "lat": 48.1850674705339,
+    "lng": 11.2060527704764
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 77,
+    "NAME_3": "Freising",
+    "lat": 48.4447200352593,
+    "lng": 11.7430074354442
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 78,
+    "NAME_3": "Garmisch-Partenkirchen",
+    "lat": 47.5555131666843,
+    "lng": 11.1284055592682
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 79,
+    "NAME_3": "Ingolstadt Städte",
+    "lat": 48.7513611841049,
+    "lng": 11.3985912841192
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 80,
+    "NAME_3": "Landsberg",
+    "lat": 48.0244117769687,
+    "lng": 10.9540557281589
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 81,
+    "NAME_3": "Mühldorf",
+    "lat": 48.2411147633294,
+    "lng": 12.3853156468207
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 82,
+    "NAME_3": "München",
+    "lat": 48.070467055583,
+    "lng": 11.6358051326049
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 83,
+    "NAME_3": "Miesbach",
+    "lat": 47.7390677338087,
+    "lng": 11.8159704367035
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 84,
+    "NAME_3": "Munich Städte",
+    "lat": 48.1494236109752,
+    "lng": 11.5507225244494
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 85,
+    "NAME_3": "Neuburg-Schrobenhausen",
+    "lat": 48.6602974439631,
+    "lng": 11.2028540863779
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 86,
+    "NAME_3": "Pfaffenhofen",
+    "lat": 48.5926401656029,
+    "lng": 11.5266441144867
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 87,
+    "NAME_3": "Rosenheim Städte",
+    "lat": 47.8408236854778,
+    "lng": 12.1132866848614
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 88,
+    "NAME_3": "Rosenheim",
+    "lat": 47.8756517106837,
+    "lng": 12.1665438161503
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 89,
+    "NAME_3": "Starnberg",
+    "lat": 48.00290057857,
+    "lng": 11.2871407535414
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 90,
+    "NAME_3": "Traunstein",
+    "lat": 47.899205244253,
+    "lng": 12.5824488907788
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 7,
+    "NAME_2": "Oberbayern",
+    "ID_3": 91,
+    "NAME_3": "Weilheim-Schongau",
+    "lat": 47.7869489955862,
+    "lng": 11.0518497982336
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 8,
+    "NAME_2": "Oberfranken",
+    "ID_3": 92,
+    "NAME_3": "Bamberg Städte",
+    "lat": 49.8845292650166,
+    "lng": 10.9023989172708
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 8,
+    "NAME_2": "Oberfranken",
+    "ID_3": 93,
+    "NAME_3": "Bamberg",
+    "lat": 49.8903275477612,
+    "lng": 10.8869124274526
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 8,
+    "NAME_2": "Oberfranken",
+    "ID_3": 94,
+    "NAME_3": "Bayreuth Städte",
+    "lat": 49.9363685924743,
+    "lng": 11.5899558552875
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 8,
+    "NAME_2": "Oberfranken",
+    "ID_3": 95,
+    "NAME_3": "Bayreuth",
+    "lat": 49.8840296475883,
+    "lng": 11.561516009452
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 8,
+    "NAME_2": "Oberfranken",
+    "ID_3": 96,
+    "NAME_3": "Coburg Städte",
+    "lat": 50.2609114843919,
+    "lng": 10.9661737957919
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 8,
+    "NAME_2": "Oberfranken",
+    "ID_3": 97,
+    "NAME_3": "Coburg",
+    "lat": 50.2649815706009,
+    "lng": 10.9451971046899
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 8,
+    "NAME_2": "Oberfranken",
+    "ID_3": 98,
+    "NAME_3": "Forchheim",
+    "lat": 49.7222060325536,
+    "lng": 11.1800236114973
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 8,
+    "NAME_2": "Oberfranken",
+    "ID_3": 99,
+    "NAME_3": "Hof Städte",
+    "lat": 50.3135209470423,
+    "lng": 11.8989259374874
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 8,
+    "NAME_2": "Oberfranken",
+    "ID_3": 100,
+    "NAME_3": "Hof",
+    "lat": 50.2747520028462,
+    "lng": 11.8193743845792
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 8,
+    "NAME_2": "Oberfranken",
+    "ID_3": 101,
+    "NAME_3": "Kronach",
+    "lat": 50.3268196106609,
+    "lng": 11.3729931351325
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 8,
+    "NAME_2": "Oberfranken",
+    "ID_3": 102,
+    "NAME_3": "Kulmbach",
+    "lat": 50.1021511651146,
+    "lng": 11.4851836187724
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 8,
+    "NAME_2": "Oberfranken",
+    "ID_3": 103,
+    "NAME_3": "Lichtenfels",
+    "lat": 50.1077517988365,
+    "lng": 11.1196939905726
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 8,
+    "NAME_2": "Oberfranken",
+    "ID_3": 104,
+    "NAME_3": "Wunsiedel",
+    "lat": 50.0917028446928,
+    "lng": 12.0422321085118
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 9,
+    "NAME_2": "Oberpfalz",
+    "ID_3": 105,
+    "NAME_3": "Amberg-Sulzbach",
+    "lat": 49.4881696943549,
+    "lng": 11.8062702570844
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 9,
+    "NAME_2": "Oberpfalz",
+    "ID_3": 106,
+    "NAME_3": "Amberg Städte",
+    "lat": 49.4543115118993,
+    "lng": 11.8482316637224
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 9,
+    "NAME_2": "Oberpfalz",
+    "ID_3": 107,
+    "NAME_3": "Cham",
+    "lat": 49.2412690736273,
+    "lng": 12.7004189080941
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 9,
+    "NAME_2": "Oberpfalz",
+    "ID_3": 108,
+    "NAME_3": "Neumarkt",
+    "lat": 49.2159435003842,
+    "lng": 11.5699566059068
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 9,
+    "NAME_2": "Oberpfalz",
+    "ID_3": 109,
+    "NAME_3": "Neustadt",
+    "lat": 49.6873060502809,
+    "lng": 12.1049081445724
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 9,
+    "NAME_2": "Oberpfalz",
+    "ID_3": 110,
+    "NAME_3": "Regensburg Städte",
+    "lat": 49.0134968093579,
+    "lng": 12.1146303450449
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 9,
+    "NAME_2": "Oberpfalz",
+    "ID_3": 111,
+    "NAME_3": "Regensburg",
+    "lat": 49.0225036712558,
+    "lng": 12.1236834780849
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 9,
+    "NAME_2": "Oberpfalz",
+    "ID_3": 112,
+    "NAME_3": "Schwandorf",
+    "lat": 49.3697072241086,
+    "lng": 12.2558259971033
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 9,
+    "NAME_2": "Oberpfalz",
+    "ID_3": 113,
+    "NAME_3": "Tirschenreuth",
+    "lat": 49.9003526084383,
+    "lng": 12.2033668261852
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 9,
+    "NAME_2": "Oberpfalz",
+    "ID_3": 114,
+    "NAME_3": "Weiden Städte",
+    "lat": 49.6694397517414,
+    "lng": 12.161223389195
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 10,
+    "NAME_2": "Schwaben",
+    "ID_3": 115,
+    "NAME_3": "Aichach-Friedberg",
+    "lat": 48.4248046284861,
+    "lng": 11.0586445885609
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 10,
+    "NAME_2": "Schwaben",
+    "ID_3": 116,
+    "NAME_3": "Augsburg Städte",
+    "lat": 48.3447885046476,
+    "lng": 10.8919203810932
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 10,
+    "NAME_2": "Schwaben",
+    "ID_3": 117,
+    "NAME_3": "Augsburg",
+    "lat": 48.3550824448284,
+    "lng": 10.7371502277496
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 10,
+    "NAME_2": "Schwaben",
+    "ID_3": 118,
+    "NAME_3": "Dillingen",
+    "lat": 48.5989995244191,
+    "lng": 10.5347723322952
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 10,
+    "NAME_2": "Schwaben",
+    "ID_3": 119,
+    "NAME_3": "Donau-Ries",
+    "lat": 48.8058132225866,
+    "lng": 10.7225952689086
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 10,
+    "NAME_2": "Schwaben",
+    "ID_3": 120,
+    "NAME_3": "Günzburg",
+    "lat": 48.3580903422636,
+    "lng": 10.3845684628172
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 10,
+    "NAME_2": "Schwaben",
+    "ID_3": 121,
+    "NAME_3": "Kaufbeuren Städte",
+    "lat": 47.8834084591519,
+    "lng": 10.6181670181352
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 10,
+    "NAME_2": "Schwaben",
+    "ID_3": 122,
+    "NAME_3": "Kempten Städte",
+    "lat": 47.7414287015738,
+    "lng": 10.3074566584449
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 10,
+    "NAME_2": "Schwaben",
+    "ID_3": 123,
+    "NAME_3": "Lindau",
+    "lat": 47.6073248255704,
+    "lng": 9.88312917210496
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 10,
+    "NAME_2": "Schwaben",
+    "ID_3": 124,
+    "NAME_3": "Memmingen Städte",
+    "lat": 47.984025044254,
+    "lng": 10.1594998159278
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 10,
+    "NAME_2": "Schwaben",
+    "ID_3": 125,
+    "NAME_3": "Neu-Ulm",
+    "lat": 48.3034393700998,
+    "lng": 10.1438861652727
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 10,
+    "NAME_2": "Schwaben",
+    "ID_3": 126,
+    "NAME_3": "Oberallgäu",
+    "lat": 47.5741856425271,
+    "lng": 10.2575346828784
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 10,
+    "NAME_2": "Schwaben",
+    "ID_3": 127,
+    "NAME_3": "Ostallgäu",
+    "lat": 47.7740135608445,
+    "lng": 10.64073170167
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 10,
+    "NAME_2": "Schwaben",
+    "ID_3": 128,
+    "NAME_3": "Unterallgäu",
+    "lat": 48.0439905883499,
+    "lng": 10.3932389866472
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 11,
+    "NAME_2": "Unterfranken",
+    "ID_3": 129,
+    "NAME_3": "Aschaffenburg Städte",
+    "lat": 49.9643594795751,
+    "lng": 9.16105330159864
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 11,
+    "NAME_2": "Unterfranken",
+    "ID_3": 130,
+    "NAME_3": "Aschaffenburg",
+    "lat": 50.0067352498658,
+    "lng": 9.25093155721176
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 11,
+    "NAME_2": "Unterfranken",
+    "ID_3": 131,
+    "NAME_3": "Bad Kissingen",
+    "lat": 50.2204000688437,
+    "lng": 9.96465024498061
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 11,
+    "NAME_2": "Unterfranken",
+    "ID_3": 132,
+    "NAME_3": "Haßberge",
+    "lat": 50.0581215680331,
+    "lng": 10.609423392354
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 11,
+    "NAME_2": "Unterfranken",
+    "ID_3": 133,
+    "NAME_3": "Kitzingen",
+    "lat": 49.7481425572244,
+    "lng": 10.2586350170008
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 11,
+    "NAME_2": "Unterfranken",
+    "ID_3": 134,
+    "NAME_3": "Main-Spessart",
+    "lat": 49.9910816604378,
+    "lng": 9.66762009427091
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 11,
+    "NAME_2": "Unterfranken",
+    "ID_3": 135,
+    "NAME_3": "Miltenberg",
+    "lat": 49.7571665620396,
+    "lng": 9.24557486148019
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 11,
+    "NAME_2": "Unterfranken",
+    "ID_3": 136,
+    "NAME_3": "Rhön-Grabfeld",
+    "lat": 50.3695076219462,
+    "lng": 10.2564401827453
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 11,
+    "NAME_2": "Unterfranken",
+    "ID_3": 137,
+    "NAME_3": "Schweinfurt Städte",
+    "lat": 50.042187041006,
+    "lng": 10.221888390424
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 11,
+    "NAME_2": "Unterfranken",
+    "ID_3": 138,
+    "NAME_3": "Schweinfurt",
+    "lat": 50.0126986498994,
+    "lng": 10.2614547307133
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 11,
+    "NAME_2": "Unterfranken",
+    "ID_3": 139,
+    "NAME_3": "Würzburg Städte",
+    "lat": 49.7791088817948,
+    "lng": 9.94436609108958
+  },
+  {
+    "ID_1": 2,
+    "NAME_1": "Bayern",
+    "ID_2": 11,
+    "NAME_2": "Unterfranken",
+    "ID_3": 140,
+    "NAME_3": "Würzburg",
+    "lat": 49.7333380420219,
+    "lng": 9.93193371680031
+  },
+  {
+    "ID_1": 3,
+    "NAME_1": "Berlin",
+    "ID_2": 12,
+    "NAME_2": "Berlin",
+    "ID_3": 141,
+    "NAME_3": "Berlin",
+    "lat": 52.4993362056014,
+    "lng": 13.4087824776989
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 142,
+    "NAME_3": "Barnim",
+    "lat": 52.8227584149124,
+    "lng": 13.7113954991606
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 143,
+    "NAME_3": "Brandenburg an der Havel Städte",
+    "lat": 52.3940777644254,
+    "lng": 12.5123091858512
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 144,
+    "NAME_3": "Cottbus Städte",
+    "lat": 51.7745093199028,
+    "lng": 14.3790457563312
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 145,
+    "NAME_3": "Dahme-Spreewald",
+    "lat": 52.04326500443,
+    "lng": 13.830851887775
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 146,
+    "NAME_3": "Elbe-Elster",
+    "lat": 51.613437486115,
+    "lng": 13.4754575395217
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 147,
+    "NAME_3": "Frankfurt am Oder Städte",
+    "lat": 52.3258041550008,
+    "lng": 14.4880779405144
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 148,
+    "NAME_3": "Havelland",
+    "lat": 52.6169573073923,
+    "lng": 12.6328454686171
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 149,
+    "NAME_3": "Märkisch-Oderland",
+    "lat": 52.6060984386771,
+    "lng": 14.1469363126391
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 150,
+    "NAME_3": "Oberhavel",
+    "lat": 52.9035141088138,
+    "lng": 13.2102231310621
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 151,
+    "NAME_3": "Oberspreewald-Lausitz",
+    "lat": 51.6182181404878,
+    "lng": 13.9595107286108
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 152,
+    "NAME_3": "Oder-Spree",
+    "lat": 52.2464151366344,
+    "lng": 14.2186317200128
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 153,
+    "NAME_3": "Ostprignitz-Ruppin",
+    "lat": 52.9868328348278,
+    "lng": 12.6417482252211
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 154,
+    "NAME_3": "Potsdam-Mittelmark",
+    "lat": 52.2513018359641,
+    "lng": 12.7084451025745
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 155,
+    "NAME_3": "Potsdam Städte",
+    "lat": 52.3966563848426,
+    "lng": 13.0579570403606
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 156,
+    "NAME_3": "Prignitz",
+    "lat": 53.1050592612012,
+    "lng": 11.9678974442028
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 157,
+    "NAME_3": "Spree-Neiße",
+    "lat": 51.7556392151075,
+    "lng": 14.4327110895895
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 158,
+    "NAME_3": "Teltow-Fläming",
+    "lat": 52.0715079753475,
+    "lng": 13.2877246906518
+  },
+  {
+    "ID_1": 4,
+    "NAME_1": "Brandenburg",
+    "ID_2": 13,
+    "NAME_2": "Brandenburg",
+    "ID_3": 159,
+    "NAME_3": "Uckermark",
+    "lat": 53.2052618237055,
+    "lng": 13.8624142611117
+  },
+  {
+    "ID_1": 5,
+    "NAME_1": "Bremen",
+    "ID_2": 14,
+    "NAME_2": "Bremen",
+    "ID_3": 160,
+    "NAME_3": "Bremen Städte",
+    "lat": 53.1121443395575,
+    "lng": 8.78623450792077
+  },
+  {
+    "ID_1": 5,
+    "NAME_1": "Bremen",
+    "ID_2": 15,
+    "NAME_2": "Bremerhaven",
+    "ID_3": 161,
+    "NAME_3": "Bremerhaven",
+    "lat": 53.5382718446071,
+    "lng": 8.58859813105952
+  },
+  {
+    "ID_1": 6,
+    "NAME_1": "Hamburg",
+    "ID_2": 16,
+    "NAME_2": "Hamburg",
+    "ID_3": 162,
+    "NAME_3": "Hamburg Städte",
+    "lat": 53.5545681838457,
+    "lng": 10.0272087465564
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 17,
+    "NAME_2": "Darmstadt",
+    "ID_3": 163,
+    "NAME_3": "Bergstraße",
+    "lat": 49.6205418954277,
+    "lng": 8.66575640900415
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 17,
+    "NAME_2": "Darmstadt",
+    "ID_3": 164,
+    "NAME_3": "Darmstadt-Dieburg",
+    "lat": 49.8568562240469,
+    "lng": 8.80617852183683
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 17,
+    "NAME_2": "Darmstadt",
+    "ID_3": 165,
+    "NAME_3": "Darmstadt Städte",
+    "lat": 49.8826415024624,
+    "lng": 8.6766642895256
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 17,
+    "NAME_2": "Darmstadt",
+    "ID_3": 166,
+    "NAME_3": "Frankfurt am Main Städte",
+    "lat": 50.1165192379262,
+    "lng": 8.65971707647624
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 17,
+    "NAME_2": "Darmstadt",
+    "ID_3": 167,
+    "NAME_3": "Groß-Gerau",
+    "lat": 49.9029651299202,
+    "lng": 8.48073210483421
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 17,
+    "NAME_2": "Darmstadt",
+    "ID_3": 168,
+    "NAME_3": "Hochtaunuskreis",
+    "lat": 50.2794461863408,
+    "lng": 8.52178772522942
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 17,
+    "NAME_2": "Darmstadt",
+    "ID_3": 169,
+    "NAME_3": "Main-Kinzig-Kreis",
+    "lat": 50.2427388978248,
+    "lng": 9.29331069102042
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 17,
+    "NAME_2": "Darmstadt",
+    "ID_3": 170,
+    "NAME_3": "Main-Taunus-Kreis Städte",
+    "lat": 50.1000825948492,
+    "lng": 8.45053146786525
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 17,
+    "NAME_2": "Darmstadt",
+    "ID_3": 171,
+    "NAME_3": "Odenwaldkreis",
+    "lat": 49.6751112941451,
+    "lng": 8.98831900102033
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 17,
+    "NAME_2": "Darmstadt",
+    "ID_3": 172,
+    "NAME_3": "Offenbach am Main Städte",
+    "lat": 50.0904082857676,
+    "lng": 8.79737124826285
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 17,
+    "NAME_2": "Darmstadt",
+    "ID_3": 173,
+    "NAME_3": "Offenbach",
+    "lat": 50.0217323637742,
+    "lng": 8.82663053237228
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 17,
+    "NAME_2": "Darmstadt",
+    "ID_3": 174,
+    "NAME_3": "Rheingau-Taunus-Kreis",
+    "lat": 50.1393168873102,
+    "lng": 8.09509802372494
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 17,
+    "NAME_2": "Darmstadt",
+    "ID_3": 175,
+    "NAME_3": "Wetteraukreis",
+    "lat": 50.3529876879236,
+    "lng": 8.92095987732381
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 17,
+    "NAME_2": "Darmstadt",
+    "ID_3": 176,
+    "NAME_3": "Wiesbaden Städte",
+    "lat": 50.076509570675,
+    "lng": 8.27556581709798
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 18,
+    "NAME_2": "Gießen",
+    "ID_3": 177,
+    "NAME_3": "Gießen",
+    "lat": 50.5677435474132,
+    "lng": 8.82136260203511
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 18,
+    "NAME_2": "Gießen",
+    "ID_3": 178,
+    "NAME_3": "Lahn-Dill-Kreis",
+    "lat": 50.6481611293202,
+    "lng": 8.37909210831098
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 18,
+    "NAME_2": "Gießen",
+    "ID_3": 179,
+    "NAME_3": "Limburg-Weilburg",
+    "lat": 50.4265682631784,
+    "lng": 8.21796079895412
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 18,
+    "NAME_2": "Gießen",
+    "ID_3": 180,
+    "NAME_3": "Marburg-Biedenkopf",
+    "lat": 50.8335175581377,
+    "lng": 8.75123866208259
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 18,
+    "NAME_2": "Gießen",
+    "ID_3": 181,
+    "NAME_3": "Vogelsbergkreis",
+    "lat": 50.6375124079271,
+    "lng": 9.27902541974479
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 19,
+    "NAME_2": "Kassel",
+    "ID_3": 182,
+    "NAME_3": "Fulda",
+    "lat": 50.5641568677938,
+    "lng": 9.761326325387
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 19,
+    "NAME_2": "Kassel",
+    "ID_3": 183,
+    "NAME_3": "Hersfeld-Rotenburg",
+    "lat": 50.9089950866217,
+    "lng": 9.75700865641084
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 19,
+    "NAME_2": "Kassel",
+    "ID_3": 184,
+    "NAME_3": "Kassel Städte",
+    "lat": 51.3120111747765,
+    "lng": 9.46627705099258
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 19,
+    "NAME_2": "Kassel",
+    "ID_3": 185,
+    "NAME_3": "Kassel",
+    "lat": 51.4025644994594,
+    "lng": 9.41677475164697
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 19,
+    "NAME_2": "Kassel",
+    "ID_3": 186,
+    "NAME_3": "Schwalm-Eder-Kreis",
+    "lat": 51.0225286051937,
+    "lng": 9.38242967526979
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 19,
+    "NAME_2": "Kassel",
+    "ID_3": 187,
+    "NAME_3": "Waldeck-Frankenberg",
+    "lat": 51.1877815646874,
+    "lng": 8.90325074105273
+  },
+  {
+    "ID_1": 7,
+    "NAME_1": "Hessen",
+    "ID_2": 19,
+    "NAME_2": "Kassel",
+    "ID_3": 188,
+    "NAME_3": "Werra-Meißner-Kreis",
+    "lat": 51.1934253321333,
+    "lng": 9.93136400745817
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 189,
+    "NAME_3": "Bad Doberan",
+    "lat": 54.0524392776489,
+    "lng": 12.0859286984938
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 190,
+    "NAME_3": "Demmin",
+    "lat": 53.7946012528518,
+    "lng": 13.0436496060924
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 191,
+    "NAME_3": "Güstrow",
+    "lat": 53.8190961654669,
+    "lng": 12.3194210777721
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 192,
+    "NAME_3": "Greifswald Städte",
+    "lat": 54.0812514821597,
+    "lng": 13.4196402566215
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 193,
+    "NAME_3": "Ludwigslust",
+    "lat": 53.3777598366447,
+    "lng": 11.234029418232
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 194,
+    "NAME_3": "Müritz",
+    "lat": 53.4567113269355,
+    "lng": 12.6493506593018
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 195,
+    "NAME_3": "Mecklenburg-Strelitz",
+    "lat": 53.4388883732574,
+    "lng": 13.286203923072
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 196,
+    "NAME_3": "Neubrandenburg Städte",
+    "lat": 53.5371048020275,
+    "lng": 13.2495525230464
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 197,
+    "NAME_3": "Nordvorpommern",
+    "lat": 54.2128905436451,
+    "lng": 12.8138422901893
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 198,
+    "NAME_3": "Nordwestmecklenburg",
+    "lat": 53.8208925823594,
+    "lng": 11.2515990276593
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 199,
+    "NAME_3": "Ostvorpommern",
+    "lat": 53.9318732865963,
+    "lng": 13.6719834732921
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 200,
+    "NAME_3": "Parchim",
+    "lat": 53.5286224414169,
+    "lng": 11.881774037008
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 201,
+    "NAME_3": "Rügen",
+    "lat": 54.4390907890314,
+    "lng": 13.3870651232868
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 202,
+    "NAME_3": "Rostock Städte",
+    "lat": 54.1513485952082,
+    "lng": 12.1528614676341
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 203,
+    "NAME_3": "Schwerin Städte",
+    "lat": 53.6205162988114,
+    "lng": 11.4214362879145
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 204,
+    "NAME_3": "Stralsund Städte",
+    "lat": 54.2963079605745,
+    "lng": 13.0786883833048
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 205,
+    "NAME_3": "Uecker-Randow",
+    "lat": 53.5510784977365,
+    "lng": 14.0725313129888
+  },
+  {
+    "ID_1": 8,
+    "NAME_1": "Mecklenburg-Vorpommern",
+    "ID_2": 20,
+    "NAME_2": "Mecklenburg-Vorpommern",
+    "ID_3": 206,
+    "NAME_3": "Wismar Städte",
+    "lat": 53.898804227244,
+    "lng": 11.4669083648379
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 21,
+    "NAME_2": "Braunschweig",
+    "ID_3": 207,
+    "NAME_3": "Braunschweig Städte",
+    "lat": 52.2792314085863,
+    "lng": 10.5256571193655
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 21,
+    "NAME_2": "Braunschweig",
+    "ID_3": 208,
+    "NAME_3": "Göttingen",
+    "lat": 51.5015361062628,
+    "lng": 9.93101252266414
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 21,
+    "NAME_2": "Braunschweig",
+    "ID_3": 209,
+    "NAME_3": "Gifhorn",
+    "lat": 52.5864039544059,
+    "lng": 10.606477975898
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 21,
+    "NAME_2": "Braunschweig",
+    "ID_3": 210,
+    "NAME_3": "Goslar",
+    "lat": 51.876649964292,
+    "lng": 10.4021249673626
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 21,
+    "NAME_2": "Braunschweig",
+    "ID_3": 211,
+    "NAME_3": "Helmstedt",
+    "lat": 52.2610946978241,
+    "lng": 10.8919797944845
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 21,
+    "NAME_2": "Braunschweig",
+    "ID_3": 212,
+    "NAME_3": "Northeim",
+    "lat": 51.7443298885146,
+    "lng": 9.85207864569166
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 21,
+    "NAME_2": "Braunschweig",
+    "ID_3": 213,
+    "NAME_3": "Osterode",
+    "lat": 51.6767875804997,
+    "lng": 10.3742218139533
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 21,
+    "NAME_2": "Braunschweig",
+    "ID_3": 214,
+    "NAME_3": "Peine",
+    "lat": 52.308683355678,
+    "lng": 10.2577295531806
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 21,
+    "NAME_2": "Braunschweig",
+    "ID_3": 215,
+    "NAME_3": "Salzgitter Städte",
+    "lat": 52.1291123073179,
+    "lng": 10.3707328368644
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 21,
+    "NAME_2": "Braunschweig",
+    "ID_3": 216,
+    "NAME_3": "Wolfenbüttel",
+    "lat": 52.130501704614,
+    "lng": 10.5850541649811
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 21,
+    "NAME_2": "Braunschweig",
+    "ID_3": 217,
+    "NAME_3": "Wolfsburg Städte",
+    "lat": 52.4114842143644,
+    "lng": 10.7860996305261
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 22,
+    "NAME_2": "Hannover",
+    "ID_3": 218,
+    "NAME_3": "Diepholz",
+    "lat": 52.7305732422977,
+    "lng": 8.70288394071785
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 22,
+    "NAME_2": "Hannover",
+    "ID_3": 219,
+    "NAME_3": "Hamelin-Pyrmont",
+    "lat": 52.0945692558364,
+    "lng": 9.39240861071116
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 22,
+    "NAME_2": "Hannover",
+    "ID_3": 220,
+    "NAME_3": "Hanover",
+    "lat": 52.4242564023037,
+    "lng": 9.72132510242441
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 22,
+    "NAME_2": "Hannover",
+    "ID_3": 221,
+    "NAME_3": "Hildesheim",
+    "lat": 52.0916846495102,
+    "lng": 9.94505372955363
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 22,
+    "NAME_2": "Hannover",
+    "ID_3": 222,
+    "NAME_3": "Holzminden",
+    "lat": 51.8803721412929,
+    "lng": 9.55464172949002
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 22,
+    "NAME_2": "Hannover",
+    "ID_3": 223,
+    "NAME_3": "Nienburg",
+    "lat": 52.611208402158,
+    "lng": 9.11493735439535
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 22,
+    "NAME_2": "Hannover",
+    "ID_3": 224,
+    "NAME_3": "Schaumburg",
+    "lat": 52.2928480226577,
+    "lng": 9.20771654776377
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 23,
+    "NAME_2": "Lüneburg",
+    "ID_3": 225,
+    "NAME_3": "Celle",
+    "lat": 52.7196332113928,
+    "lng": 10.1057492368924
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 23,
+    "NAME_2": "Lüneburg",
+    "ID_3": 226,
+    "NAME_3": "Cuxhaven",
+    "lat": 53.620069045936,
+    "lng": 8.81036455456583
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 23,
+    "NAME_2": "Lüneburg",
+    "ID_3": 227,
+    "NAME_3": "Harburg",
+    "lat": 53.3251292887174,
+    "lng": 9.96540628067673
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 23,
+    "NAME_2": "Lüneburg",
+    "ID_3": 228,
+    "NAME_3": "Osterholz",
+    "lat": 53.2552740235743,
+    "lng": 8.80864384170145
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 23,
+    "NAME_2": "Lüneburg",
+    "ID_3": 229,
+    "NAME_3": "Rotenburg",
+    "lat": 53.2556966409764,
+    "lng": 9.30547482012678
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 23,
+    "NAME_2": "Lüneburg",
+    "ID_3": 230,
+    "NAME_3": "Soltau-Fallingbostel",
+    "lat": 52.9347590821089,
+    "lng": 9.77061612065229
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 23,
+    "NAME_2": "Lüneburg",
+    "ID_3": 231,
+    "NAME_3": "Stade",
+    "lat": 53.5947615997348,
+    "lng": 9.41624401858741
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 23,
+    "NAME_2": "Lüneburg",
+    "ID_3": 232,
+    "NAME_3": "Verden",
+    "lat": 52.9766376820357,
+    "lng": 9.17466080508895
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 24,
+    "NAME_2": "Luneburg",
+    "ID_3": 233,
+    "NAME_3": "Lüchow-Dannenberg",
+    "lat": 53.0197973835024,
+    "lng": 11.1275336364335
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 24,
+    "NAME_2": "Luneburg",
+    "ID_3": 234,
+    "NAME_3": "Lüneburg",
+    "lat": 53.2399002138622,
+    "lng": 10.5764352198283
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 24,
+    "NAME_2": "Luneburg",
+    "ID_3": 235,
+    "NAME_3": "Uelzen",
+    "lat": 52.9933064521961,
+    "lng": 10.5505318974969
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 25,
+    "NAME_2": "Weser-Ems",
+    "ID_3": 236,
+    "NAME_3": "Ammerland",
+    "lat": 53.2132628149383,
+    "lng": 8.03302391801262
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 25,
+    "NAME_2": "Weser-Ems",
+    "ID_3": 237,
+    "NAME_3": "Aurich",
+    "lat": 53.4916774568377,
+    "lng": 7.36384352198288
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 25,
+    "NAME_2": "Weser-Ems",
+    "ID_3": 238,
+    "NAME_3": "Cloppenburg",
+    "lat": 52.9052456766794,
+    "lng": 7.92274446851646
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 25,
+    "NAME_2": "Weser-Ems",
+    "ID_3": 239,
+    "NAME_3": "Emden Städte",
+    "lat": 53.3488911891881,
+    "lng": 7.24107864483824
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 25,
+    "NAME_2": "Weser-Ems",
+    "ID_3": 240,
+    "NAME_3": "Emsland",
+    "lat": 52.7312340544858,
+    "lng": 7.41911572672259
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 25,
+    "NAME_2": "Weser-Ems",
+    "ID_3": 241,
+    "NAME_3": "Friesland",
+    "lat": 53.5097355978382,
+    "lng": 7.99372039535962
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 25,
+    "NAME_2": "Weser-Ems",
+    "ID_3": 242,
+    "NAME_3": "Grafschaft Bentheim",
+    "lat": 52.4791618941811,
+    "lng": 7.02466718431579
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 25,
+    "NAME_2": "Weser-Ems",
+    "ID_3": 243,
+    "NAME_3": "Leer",
+    "lat": 53.217142969588,
+    "lng": 7.53516307668416
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 25,
+    "NAME_2": "Weser-Ems",
+    "ID_3": 244,
+    "NAME_3": "Oldenburg Städte",
+    "lat": 53.1438864450134,
+    "lng": 8.23309903900536
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 25,
+    "NAME_2": "Weser-Ems",
+    "ID_3": 245,
+    "NAME_3": "Oldenburg",
+    "lat": 52.9922889250453,
+    "lng": 8.40905195017272
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 25,
+    "NAME_2": "Weser-Ems",
+    "ID_3": 246,
+    "NAME_3": "Osnabrück Städte",
+    "lat": 52.2794472180905,
+    "lng": 8.04710719460836
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 25,
+    "NAME_2": "Weser-Ems",
+    "ID_3": 247,
+    "NAME_3": "Osnabrück",
+    "lat": 52.3801873768298,
+    "lng": 8.05080499047363
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 25,
+    "NAME_2": "Weser-Ems",
+    "ID_3": 248,
+    "NAME_3": "Vechta",
+    "lat": 52.6607810748821,
+    "lng": 8.22670392805458
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 25,
+    "NAME_2": "Weser-Ems",
+    "ID_3": 249,
+    "NAME_3": "Wesermarsch",
+    "lat": 53.3592884989803,
+    "lng": 8.39162146162265
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 25,
+    "NAME_2": "Weser-Ems",
+    "ID_3": 250,
+    "NAME_3": "Wilhelmshaven Städte",
+    "lat": 53.5636736266313,
+    "lng": 8.09026023424848
+  },
+  {
+    "ID_1": 9,
+    "NAME_1": "Niedersachsen",
+    "ID_2": 25,
+    "NAME_2": "Weser-Ems",
+    "ID_3": 251,
+    "NAME_3": "Wittmund",
+    "lat": 53.5703490307052,
+    "lng": 7.71996462050091
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 26,
+    "NAME_2": "Arnsberg",
+    "ID_3": 252,
+    "NAME_3": "Bochum Städte",
+    "lat": 51.4651246932278,
+    "lng": 7.23041314063492
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 26,
+    "NAME_2": "Arnsberg",
+    "ID_3": 253,
+    "NAME_3": "Dortmund Städte",
+    "lat": 51.5122683536788,
+    "lng": 7.47875215124176
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 26,
+    "NAME_2": "Arnsberg",
+    "ID_3": 254,
+    "NAME_3": "Ennepe-Ruhr",
+    "lat": 51.342753785624,
+    "lng": 7.32624451241062
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 26,
+    "NAME_2": "Arnsberg",
+    "ID_3": 255,
+    "NAME_3": "Hagen Städte",
+    "lat": 51.3455629924984,
+    "lng": 7.49837023843986
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 26,
+    "NAME_2": "Arnsberg",
+    "ID_3": 256,
+    "NAME_3": "Hamm Städte",
+    "lat": 51.6633341802793,
+    "lng": 7.8268735128529
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 26,
+    "NAME_2": "Arnsberg",
+    "ID_3": 257,
+    "NAME_3": "Herne Städte",
+    "lat": 51.5321698365079,
+    "lng": 7.21827044391313
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 26,
+    "NAME_2": "Arnsberg",
+    "ID_3": 258,
+    "NAME_3": "Hochsauerlandkreis",
+    "lat": 51.3054529370052,
+    "lng": 8.39620886992506
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 26,
+    "NAME_2": "Arnsberg",
+    "ID_3": 259,
+    "NAME_3": "Märkischer Kreis",
+    "lat": 51.2605900167945,
+    "lng": 7.71369511607796
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 26,
+    "NAME_2": "Arnsberg",
+    "ID_3": 260,
+    "NAME_3": "Olpe",
+    "lat": 51.0860940130078,
+    "lng": 7.98063032889681
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 26,
+    "NAME_2": "Arnsberg",
+    "ID_3": 261,
+    "NAME_3": "Siegen-Wittgenstein",
+    "lat": 50.9382436317778,
+    "lng": 8.20516604588008
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 26,
+    "NAME_2": "Arnsberg",
+    "ID_3": 262,
+    "NAME_3": "Soest",
+    "lat": 51.5635720537867,
+    "lng": 8.22218660063851
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 26,
+    "NAME_2": "Arnsberg",
+    "ID_3": 263,
+    "NAME_3": "Unna",
+    "lat": 51.5760043458778,
+    "lng": 7.64004694478872
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 27,
+    "NAME_2": "Düsseldorf",
+    "ID_3": 264,
+    "NAME_3": "Cleves",
+    "lat": 51.653537969013,
+    "lng": 6.26750913952812
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 27,
+    "NAME_2": "Düsseldorf",
+    "ID_3": 265,
+    "NAME_3": "Düsseldorf Städte",
+    "lat": 51.2337079077678,
+    "lng": 6.8168488318212
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 27,
+    "NAME_2": "Düsseldorf",
+    "ID_3": 266,
+    "NAME_3": "Duisburg Städte",
+    "lat": 51.4383403017963,
+    "lng": 6.74371517888759
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 27,
+    "NAME_2": "Düsseldorf",
+    "ID_3": 267,
+    "NAME_3": "Essen Städte",
+    "lat": 51.4299699167858,
+    "lng": 7.02503172910353
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 27,
+    "NAME_2": "Düsseldorf",
+    "ID_3": 268,
+    "NAME_3": "Krefeld Städte",
+    "lat": 51.3451952752771,
+    "lng": 6.5876322549955
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 27,
+    "NAME_2": "Düsseldorf",
+    "ID_3": 269,
+    "NAME_3": "Mönchengladbach Städte",
+    "lat": 51.1691026003078,
+    "lng": 6.41995152195139
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 27,
+    "NAME_2": "Düsseldorf",
+    "ID_3": 270,
+    "NAME_3": "Mülheim Städte",
+    "lat": 51.410548987301,
+    "lng": 6.88685379915723
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 27,
+    "NAME_2": "Düsseldorf",
+    "ID_3": 271,
+    "NAME_3": "Mettmann",
+    "lat": 51.2536247689562,
+    "lng": 6.9745659778387
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 27,
+    "NAME_2": "Düsseldorf",
+    "ID_3": 272,
+    "NAME_3": "Oberhausen Städte",
+    "lat": 51.5107971605424,
+    "lng": 6.85694919120911
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 27,
+    "NAME_2": "Düsseldorf",
+    "ID_3": 273,
+    "NAME_3": "Remscheid Städte",
+    "lat": 51.1792739756188,
+    "lng": 7.22429644065298
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 27,
+    "NAME_2": "Düsseldorf",
+    "ID_3": 274,
+    "NAME_3": "Rhein-Kreis Neuss",
+    "lat": 51.1425023003921,
+    "lng": 6.65655501471138
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 27,
+    "NAME_2": "Düsseldorf",
+    "ID_3": 275,
+    "NAME_3": "Solingen Städte",
+    "lat": 51.1588063222635,
+    "lng": 7.06980319575931
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 27,
+    "NAME_2": "Düsseldorf",
+    "ID_3": 276,
+    "NAME_3": "Viersen",
+    "lat": 51.2855734427078,
+    "lng": 6.3326928046174
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 27,
+    "NAME_2": "Düsseldorf",
+    "ID_3": 277,
+    "NAME_3": "Wesel",
+    "lat": 51.627227893467,
+    "lng": 6.6278038836109
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 27,
+    "NAME_2": "Düsseldorf",
+    "ID_3": 278,
+    "NAME_3": "Wuppertal Städte",
+    "lat": 51.2471710894562,
+    "lng": 7.17041562159444
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 28,
+    "NAME_2": "Detmold",
+    "ID_3": 279,
+    "NAME_3": "Bielefeld Städte",
+    "lat": 52.0111926190689,
+    "lng": 8.5431532912715
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 28,
+    "NAME_2": "Detmold",
+    "ID_3": 280,
+    "NAME_3": "Gütersloh",
+    "lat": 51.9315966991199,
+    "lng": 8.35407602939653
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 28,
+    "NAME_2": "Detmold",
+    "ID_3": 281,
+    "NAME_3": "Höxter",
+    "lat": 51.6846134922906,
+    "lng": 9.18698975699344
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 28,
+    "NAME_2": "Detmold",
+    "ID_3": 282,
+    "NAME_3": "Herford",
+    "lat": 52.1674954259561,
+    "lng": 8.64477882091186
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 28,
+    "NAME_2": "Detmold",
+    "ID_3": 283,
+    "NAME_3": "Lippe",
+    "lat": 51.9804580290735,
+    "lng": 8.95415453720407
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 28,
+    "NAME_2": "Detmold",
+    "ID_3": 284,
+    "NAME_3": "Minden-Lübbecke",
+    "lat": 52.3526419352323,
+    "lng": 8.74105717976372
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 28,
+    "NAME_2": "Detmold",
+    "ID_3": 285,
+    "NAME_3": "Paderborn",
+    "lat": 51.6622164601108,
+    "lng": 8.72812005473714
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 29,
+    "NAME_2": "Köln",
+    "ID_3": 286,
+    "NAME_3": "Aachen Städte",
+    "lat": 50.7572864841607,
+    "lng": 6.10136172703153
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 29,
+    "NAME_2": "Köln",
+    "ID_3": 287,
+    "NAME_3": "Aachen",
+    "lat": 50.7198767056071,
+    "lng": 6.24579180546252
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 29,
+    "NAME_2": "Köln",
+    "ID_3": 288,
+    "NAME_3": "Bonn Städte",
+    "lat": 50.700339930567,
+    "lng": 7.11408833914119
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 29,
+    "NAME_2": "Köln",
+    "ID_3": 289,
+    "NAME_3": "Cologne Städte",
+    "lat": 50.9412377801667,
+    "lng": 6.97775155934919
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 29,
+    "NAME_2": "Köln",
+    "ID_3": 290,
+    "NAME_3": "Düren",
+    "lat": 50.8164479033415,
+    "lng": 6.44815926431327
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 29,
+    "NAME_2": "Köln",
+    "ID_3": 291,
+    "NAME_3": "Euskirchen",
+    "lat": 50.5301266057387,
+    "lng": 6.64650398026965
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 29,
+    "NAME_2": "Köln",
+    "ID_3": 292,
+    "NAME_3": "Heinsberg",
+    "lat": 51.051661247919,
+    "lng": 6.17153996350575
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 29,
+    "NAME_2": "Köln",
+    "ID_3": 293,
+    "NAME_3": "Leverkusen Städte",
+    "lat": 51.048852704854,
+    "lng": 7.01873647093136
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 29,
+    "NAME_2": "Köln",
+    "ID_3": 294,
+    "NAME_3": "Oberbergischer Kreis",
+    "lat": 51.0103405513857,
+    "lng": 7.51798185782439
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 29,
+    "NAME_2": "Köln",
+    "ID_3": 295,
+    "NAME_3": "Rhein-Erft-Kreis",
+    "lat": 50.9017773114768,
+    "lng": 6.72210485958233
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 29,
+    "NAME_2": "Köln",
+    "ID_3": 296,
+    "NAME_3": "Rhein-Sieg",
+    "lat": 50.7560964543107,
+    "lng": 7.2389303538402
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 29,
+    "NAME_2": "Köln",
+    "ID_3": 297,
+    "NAME_3": "Rheinisch-Bergischer Kreis",
+    "lat": 51.0187833914558,
+    "lng": 7.19630484878474
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 30,
+    "NAME_2": "Munster",
+    "ID_3": 298,
+    "NAME_3": "Borken",
+    "lat": 51.9613288894331,
+    "lng": 6.90763668293538
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 30,
+    "NAME_2": "Munster",
+    "ID_3": 299,
+    "NAME_3": "Bottrop Städte",
+    "lat": 51.5685070430092,
+    "lng": 6.93073401745807
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 30,
+    "NAME_2": "Munster",
+    "ID_3": 300,
+    "NAME_3": "Coesfeld",
+    "lat": 51.8650822403036,
+    "lng": 7.37159915180431
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 30,
+    "NAME_2": "Munster",
+    "ID_3": 301,
+    "NAME_3": "Gelsenkirchen Städte",
+    "lat": 51.548940789649,
+    "lng": 7.0816710542092
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 30,
+    "NAME_2": "Munster",
+    "ID_3": 302,
+    "NAME_3": "Münster Städte",
+    "lat": 51.9525027767705,
+    "lng": 7.62772427538373
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 30,
+    "NAME_2": "Munster",
+    "ID_3": 303,
+    "NAME_3": "Recklinghausen",
+    "lat": 51.6690330960603,
+    "lng": 7.1673296272506
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 30,
+    "NAME_2": "Munster",
+    "ID_3": 304,
+    "NAME_3": "Steinfurt",
+    "lat": 52.2112741429525,
+    "lng": 7.58153965428563
+  },
+  {
+    "ID_1": 10,
+    "NAME_1": "Nordrhein-Westfalen",
+    "ID_2": 30,
+    "NAME_2": "Munster",
+    "ID_3": 305,
+    "NAME_3": "Warendorf",
+    "lat": 51.8697895092601,
+    "lng": 7.96083006011798
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 31,
+    "NAME_2": "Koblenz",
+    "ID_3": 306,
+    "NAME_3": "Ahrweiler",
+    "lat": 50.4610800574444,
+    "lng": 7.05136529131372
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 31,
+    "NAME_2": "Koblenz",
+    "ID_3": 307,
+    "NAME_3": "Altenkirchen",
+    "lat": 50.7500759601786,
+    "lng": 7.75041666586483
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 31,
+    "NAME_2": "Koblenz",
+    "ID_3": 308,
+    "NAME_3": "Bad Kreuznach",
+    "lat": 49.8258319556811,
+    "lng": 7.69509358208502
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 31,
+    "NAME_2": "Koblenz",
+    "ID_3": 309,
+    "NAME_3": "Birkenfeld",
+    "lat": 49.7170612131732,
+    "lng": 7.28932566533558
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 31,
+    "NAME_2": "Koblenz",
+    "ID_3": 310,
+    "NAME_3": "Cochem-Zell",
+    "lat": 50.1306477928262,
+    "lng": 7.18722498415058
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 31,
+    "NAME_2": "Koblenz",
+    "ID_3": 311,
+    "NAME_3": "Koblenz Coblenz Städte",
+    "lat": 50.347153812534,
+    "lng": 7.58871074550567
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 31,
+    "NAME_2": "Koblenz",
+    "ID_3": 312,
+    "NAME_3": "Mayen-Koblenz",
+    "lat": 50.3282796613206,
+    "lng": 7.34094298651967
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 31,
+    "NAME_2": "Koblenz",
+    "ID_3": 313,
+    "NAME_3": "Neuwied",
+    "lat": 50.55441245481,
+    "lng": 7.47634597016746
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 31,
+    "NAME_2": "Koblenz",
+    "ID_3": 314,
+    "NAME_3": "Rhein-Hunsrück",
+    "lat": 50.0454209366692,
+    "lng": 7.51337948198337
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 31,
+    "NAME_2": "Koblenz",
+    "ID_3": 315,
+    "NAME_3": "Rhein-Lahn",
+    "lat": 50.2647375075854,
+    "lng": 7.85808105269585
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 31,
+    "NAME_2": "Koblenz",
+    "ID_3": 316,
+    "NAME_3": "Westerwaldkreis",
+    "lat": 50.5525853096963,
+    "lng": 7.87932662823299
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 317,
+    "NAME_3": "Alzey-Worms",
+    "lat": 49.7567399667185,
+    "lng": 8.16373256817567
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 318,
+    "NAME_3": "Bad Dürkheim",
+    "lat": 49.4524274777446,
+    "lng": 8.11450379169574
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 319,
+    "NAME_3": "Donnersbergkreis",
+    "lat": 49.6298837980844,
+    "lng": 7.92308496611894
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 320,
+    "NAME_3": "Frankenthal Städte",
+    "lat": 49.5339293538225,
+    "lng": 8.36029694724233
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 321,
+    "NAME_3": "Germersheim",
+    "lat": 49.1163415798067,
+    "lng": 8.24833147556573
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 322,
+    "NAME_3": "Kaiserslautern Städte",
+    "lat": 49.4336823637761,
+    "lng": 7.76889021846873
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 323,
+    "NAME_3": "Kaiserslautern",
+    "lat": 49.447563268067,
+    "lng": 7.69188683327096
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 324,
+    "NAME_3": "Kusel",
+    "lat": 49.5505500004191,
+    "lng": 7.48100762737084
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 325,
+    "NAME_3": "Landau Städte",
+    "lat": 49.2247642366863,
+    "lng": 8.05811858275582
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 326,
+    "NAME_3": "Ludwigshafen Städte",
+    "lat": 49.4834519928628,
+    "lng": 8.39983675836663
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 327,
+    "NAME_3": "Mainz-Bingen",
+    "lat": 49.920154253805,
+    "lng": 8.08743793748266
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 328,
+    "NAME_3": "Mainz Städte",
+    "lat": 49.97240195944,
+    "lng": 8.25263751910385
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 329,
+    "NAME_3": "Neustadt Städte",
+    "lat": 49.3423204209346,
+    "lng": 8.15508649720504
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 330,
+    "NAME_3": "Rhein-Pfalz-Kreis",
+    "lat": 49.4188966497258,
+    "lng": 8.36286535420148
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 331,
+    "NAME_3": "Südliche Weinstraße",
+    "lat": 49.1894787120333,
+    "lng": 8.05143267386446
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 332,
+    "NAME_3": "Südwestpfalz",
+    "lat": 49.2094007869522,
+    "lng": 7.65778223766192
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 333,
+    "NAME_3": "Speyer Spires Städte",
+    "lat": 49.3332258494335,
+    "lng": 8.43618776436677
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 334,
+    "NAME_3": "Worms Städte",
+    "lat": 49.6492210865864,
+    "lng": 8.32951725692737
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 32,
+    "NAME_2": "Rheinhessen-Pfalz",
+    "ID_3": 335,
+    "NAME_3": "Zweibrücken Städte",
+    "lat": 49.2555279457226,
+    "lng": 7.36966406801817
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 33,
+    "NAME_2": "Trier",
+    "ID_3": 336,
+    "NAME_3": "Bernkastel-Wittlich",
+    "lat": 49.9250063378491,
+    "lng": 6.97065810396226
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 33,
+    "NAME_2": "Trier",
+    "ID_3": 337,
+    "NAME_3": "Bitburg-Prüm",
+    "lat": 50.0623387310904,
+    "lng": 6.40648846283382
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 33,
+    "NAME_2": "Trier",
+    "ID_3": 338,
+    "NAME_3": "Trier-Saarburg",
+    "lat": 49.6974202732391,
+    "lng": 6.694093284877
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 33,
+    "NAME_2": "Trier",
+    "ID_3": 339,
+    "NAME_3": "Trier Städte",
+    "lat": 49.7648786360191,
+    "lng": 6.65378641180147
+  },
+  {
+    "ID_1": 11,
+    "NAME_1": "Rheinland-Pfalz",
+    "ID_2": 33,
+    "NAME_2": "Trier",
+    "ID_3": 340,
+    "NAME_3": "Vulkaneifel",
+    "lat": 50.2327954713429,
+    "lng": 6.75045929330857
+  },
+  {
+    "ID_1": 12,
+    "NAME_1": "Saarland",
+    "ID_2": 34,
+    "NAME_2": "Saarland",
+    "ID_3": 341,
+    "NAME_3": "Merzig-Wadern",
+    "lat": 49.4985373946169,
+    "lng": 6.6833502197798
+  },
+  {
+    "ID_1": 12,
+    "NAME_1": "Saarland",
+    "ID_2": 34,
+    "NAME_2": "Saarland",
+    "ID_3": 342,
+    "NAME_3": "Neunkirchen",
+    "lat": 49.3820311235079,
+    "lng": 7.12367641195969
+  },
+  {
+    "ID_1": 12,
+    "NAME_1": "Saarland",
+    "ID_2": 34,
+    "NAME_2": "Saarland",
+    "ID_3": 343,
+    "NAME_3": "Saarbrücken Städte",
+    "lat": 49.2540185387208,
+    "lng": 6.96226955715864
+  },
+  {
+    "ID_1": 12,
+    "NAME_1": "Saarland",
+    "ID_2": 34,
+    "NAME_2": "Saarland",
+    "ID_3": 344,
+    "NAME_3": "Saarlouis",
+    "lat": 49.3575768395487,
+    "lng": 6.7768999706602
+  },
+  {
+    "ID_1": 12,
+    "NAME_1": "Saarland",
+    "ID_2": 34,
+    "NAME_2": "Saarland",
+    "ID_3": 345,
+    "NAME_3": "Saarpfalz",
+    "lat": 49.2515761859981,
+    "lng": 7.24657013715198
+  },
+  {
+    "ID_1": 12,
+    "NAME_1": "Saarland",
+    "ID_2": 34,
+    "NAME_2": "Saarland",
+    "ID_3": 346,
+    "NAME_3": "Sankt Wendel",
+    "lat": 49.5259206015156,
+    "lng": 7.10598321509974
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 35,
+    "NAME_2": "Dessau",
+    "ID_3": 347,
+    "NAME_3": "Anhalt-Zerbst",
+    "lat": 51.9761305209945,
+    "lng": 12.2297616129952
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 35,
+    "NAME_2": "Dessau",
+    "ID_3": 348,
+    "NAME_3": "Bernburg",
+    "lat": 51.7536390364807,
+    "lng": 11.7423412946575
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 35,
+    "NAME_2": "Dessau",
+    "ID_3": 349,
+    "NAME_3": "Bitterfeld",
+    "lat": 51.6470070868593,
+    "lng": 12.2988129198842
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 35,
+    "NAME_2": "Dessau",
+    "ID_3": 350,
+    "NAME_3": "Dessau Städte",
+    "lat": 51.8134474469852,
+    "lng": 12.2397776174454
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 35,
+    "NAME_2": "Dessau",
+    "ID_3": 351,
+    "NAME_3": "Köthen",
+    "lat": 51.7545529551252,
+    "lng": 12.0169466598592
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 35,
+    "NAME_2": "Dessau",
+    "ID_3": 352,
+    "NAME_3": "Wittenberg",
+    "lat": 51.7917558438332,
+    "lng": 12.7905764120014
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 36,
+    "NAME_2": "Halle",
+    "ID_3": 353,
+    "NAME_3": "Aschersleben-Staßfurt",
+    "lat": 51.8205147792975,
+    "lng": 11.448402972354
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 36,
+    "NAME_2": "Halle",
+    "ID_3": 354,
+    "NAME_3": "Burgenlandkreis",
+    "lat": 51.1343989022598,
+    "lng": 11.8348297655974
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 36,
+    "NAME_2": "Halle",
+    "ID_3": 355,
+    "NAME_3": "Halle Städte",
+    "lat": 51.4803902141406,
+    "lng": 11.9753426304392
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 36,
+    "NAME_2": "Halle",
+    "ID_3": 356,
+    "NAME_3": "Mansfelder Land",
+    "lat": 51.5769555934888,
+    "lng": 11.5069748111858
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 36,
+    "NAME_2": "Halle",
+    "ID_3": 357,
+    "NAME_3": "Merseburg-Querfurt",
+    "lat": 51.3454997547543,
+    "lng": 11.8206534951598
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 36,
+    "NAME_2": "Halle",
+    "ID_3": 358,
+    "NAME_3": "Saalkreis",
+    "lat": 51.5284798490167,
+    "lng": 11.9376542643408
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 36,
+    "NAME_2": "Halle",
+    "ID_3": 359,
+    "NAME_3": "Sangerhausen",
+    "lat": 51.4900212978032,
+    "lng": 11.1971400617947
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 36,
+    "NAME_2": "Halle",
+    "ID_3": 360,
+    "NAME_3": "Weißenfels",
+    "lat": 51.1934812931466,
+    "lng": 12.0435669571298
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 37,
+    "NAME_2": "Magdeburg",
+    "ID_3": 361,
+    "NAME_3": "Altmarkkreis Salzwedel",
+    "lat": 52.6778468393157,
+    "lng": 11.2303734072565
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 37,
+    "NAME_2": "Magdeburg",
+    "ID_3": 362,
+    "NAME_3": "Bördekreis",
+    "lat": 52.0592512265506,
+    "lng": 11.2849455639221
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 37,
+    "NAME_2": "Magdeburg",
+    "ID_3": 363,
+    "NAME_3": "Halberstadt",
+    "lat": 51.9586544926202,
+    "lng": 10.9409522816785
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 37,
+    "NAME_2": "Magdeburg",
+    "ID_3": 364,
+    "NAME_3": "Jerichower Land",
+    "lat": 52.2866938099621,
+    "lng": 12.0282196504171
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 37,
+    "NAME_2": "Magdeburg",
+    "ID_3": 365,
+    "NAME_3": "Magdeburg Städte",
+    "lat": 52.1164367531521,
+    "lng": 11.6477530161155
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 37,
+    "NAME_2": "Magdeburg",
+    "ID_3": 366,
+    "NAME_3": "Ohrekreis",
+    "lat": 52.3109568936646,
+    "lng": 11.3953381825497
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 37,
+    "NAME_2": "Magdeburg",
+    "ID_3": 367,
+    "NAME_3": "Quedlinburg",
+    "lat": 51.7286149263053,
+    "lng": 11.1463512454158
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 37,
+    "NAME_2": "Magdeburg",
+    "ID_3": 368,
+    "NAME_3": "Schönebeck",
+    "lat": 51.9461353292498,
+    "lng": 11.7732736596353
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 37,
+    "NAME_2": "Magdeburg",
+    "ID_3": 369,
+    "NAME_3": "Stendal",
+    "lat": 52.6928669096957,
+    "lng": 11.8461496951478
+  },
+  {
+    "ID_1": 13,
+    "NAME_1": "Sachsen-Anhalt",
+    "ID_2": 37,
+    "NAME_2": "Magdeburg",
+    "ID_3": 370,
+    "NAME_3": "Wernigerode",
+    "lat": 51.7874082504596,
+    "lng": 10.8063463595646
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 38,
+    "NAME_2": "Chemnitz",
+    "ID_3": 371,
+    "NAME_3": "Annaberg",
+    "lat": 50.5595344779854,
+    "lng": 12.9877855387078
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 38,
+    "NAME_2": "Chemnitz",
+    "ID_3": 372,
+    "NAME_3": "Aue-Schwarzenberg",
+    "lat": 50.5222747202843,
+    "lng": 12.6972439658333
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 38,
+    "NAME_2": "Chemnitz",
+    "ID_3": 373,
+    "NAME_3": "Chemnitz Städte",
+    "lat": 50.8338533807227,
+    "lng": 12.9376423397329
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 38,
+    "NAME_2": "Chemnitz",
+    "ID_3": 374,
+    "NAME_3": "Chemnitzer Land",
+    "lat": 50.8379535968297,
+    "lng": 12.6576923185991
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 38,
+    "NAME_2": "Chemnitz",
+    "ID_3": 375,
+    "NAME_3": "Freiberg",
+    "lat": 50.8471238835796,
+    "lng": 13.347669620582
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 38,
+    "NAME_2": "Chemnitz",
+    "ID_3": 376,
+    "NAME_3": "Mittlerer Erzgebirgskreis",
+    "lat": 50.6805816141126,
+    "lng": 13.1977996409776
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 38,
+    "NAME_2": "Chemnitz",
+    "ID_3": 377,
+    "NAME_3": "Mittweida",
+    "lat": 50.9838896777328,
+    "lng": 12.9523718588665
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 38,
+    "NAME_2": "Chemnitz",
+    "ID_3": 378,
+    "NAME_3": "Plauen Städte",
+    "lat": 50.4914562766646,
+    "lng": 12.1519287284427
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 38,
+    "NAME_2": "Chemnitz",
+    "ID_3": 379,
+    "NAME_3": "Stollberg",
+    "lat": 50.7147811708241,
+    "lng": 12.8280569187461
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 38,
+    "NAME_2": "Chemnitz",
+    "ID_3": 380,
+    "NAME_3": "Vogtlandkreis",
+    "lat": 50.4582777744717,
+    "lng": 12.2452037445204
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 38,
+    "NAME_2": "Chemnitz",
+    "ID_3": 381,
+    "NAME_3": "Zwickau Städte",
+    "lat": 50.7268703552698,
+    "lng": 12.4969100483796
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 38,
+    "NAME_2": "Chemnitz",
+    "ID_3": 382,
+    "NAME_3": "Zwickauer Land",
+    "lat": 50.7090601477042,
+    "lng": 12.4814678917117
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 39,
+    "NAME_2": "Dresden",
+    "ID_3": 383,
+    "NAME_3": "Bautzen",
+    "lat": 51.1724446445508,
+    "lng": 14.38376563959
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 39,
+    "NAME_2": "Dresden",
+    "ID_3": 384,
+    "NAME_3": "Dresden Städte",
+    "lat": 51.1007457880127,
+    "lng": 13.798886972661
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 39,
+    "NAME_2": "Dresden",
+    "ID_3": 385,
+    "NAME_3": "Görlitz Städte",
+    "lat": 51.1390305356273,
+    "lng": 14.9624404717479
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 39,
+    "NAME_2": "Dresden",
+    "ID_3": 386,
+    "NAME_3": "Kamenz",
+    "lat": 51.3439900352161,
+    "lng": 14.1667571245372
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 39,
+    "NAME_2": "Dresden",
+    "ID_3": 387,
+    "NAME_3": "Löbau-Zittau",
+    "lat": 51.0001228062452,
+    "lng": 14.7262965083201
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 39,
+    "NAME_2": "Dresden",
+    "ID_3": 388,
+    "NAME_3": "Meißen",
+    "lat": 51.1360202837164,
+    "lng": 13.4333326751021
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 39,
+    "NAME_2": "Dresden",
+    "ID_3": 389,
+    "NAME_3": "Niederschlesischer Oberlausitzkreis",
+    "lat": 51.3431862833108,
+    "lng": 14.7652980103845
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 39,
+    "NAME_2": "Dresden",
+    "ID_3": 390,
+    "NAME_3": "Riesa-Großenhain",
+    "lat": 51.3135715255599,
+    "lng": 13.5104244273903
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 39,
+    "NAME_2": "Dresden",
+    "ID_3": 391,
+    "NAME_3": "Sächsische Schweiz",
+    "lat": 50.9294484649577,
+    "lng": 14.0622689759307
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 39,
+    "NAME_2": "Dresden",
+    "ID_3": 392,
+    "NAME_3": "Weißeritzkreis",
+    "lat": 50.8799933685703,
+    "lng": 13.6599739516205
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 40,
+    "NAME_2": "Leipzig",
+    "ID_3": 393,
+    "NAME_3": "Döbeln",
+    "lat": 51.140803521337,
+    "lng": 13.0840572009679
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 40,
+    "NAME_2": "Leipzig",
+    "ID_3": 394,
+    "NAME_3": "Delitzsch",
+    "lat": 51.5096013395982,
+    "lng": 12.503134762751
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 40,
+    "NAME_2": "Leipzig",
+    "ID_3": 395,
+    "NAME_3": "Leipzig Städte",
+    "lat": 51.3333944252707,
+    "lng": 12.3773508129902
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 40,
+    "NAME_2": "Leipzig",
+    "ID_3": 396,
+    "NAME_3": "Leipziger Land",
+    "lat": 51.2046490753362,
+    "lng": 12.4386381798681
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 40,
+    "NAME_2": "Leipzig",
+    "ID_3": 397,
+    "NAME_3": "Muldentalkreis",
+    "lat": 51.2778226251086,
+    "lng": 12.750304256696
+  },
+  {
+    "ID_1": 14,
+    "NAME_1": "Sachsen",
+    "ID_2": 40,
+    "NAME_2": "Leipzig",
+    "ID_3": 398,
+    "NAME_3": "Torgau-Oschatz",
+    "lat": 51.4533150460802,
+    "lng": 13.0132404223225
+  },
+  {
+    "ID_1": 15,
+    "NAME_1": "Schleswig-Holstein",
+    "ID_2": 41,
+    "NAME_2": "Schleswig-Holstein",
+    "ID_3": 399,
+    "NAME_3": "Dithmarschen",
+    "lat": 54.1329660408887,
+    "lng": 9.10667939578088
+  },
+  {
+    "ID_1": 15,
+    "NAME_1": "Schleswig-Holstein",
+    "ID_2": 41,
+    "NAME_2": "Schleswig-Holstein",
+    "ID_3": 400,
+    "NAME_3": "Flensburg Städte",
+    "lat": 54.7851851885245,
+    "lng": 9.43312464352931
+  },
+  {
+    "ID_1": 15,
+    "NAME_1": "Schleswig-Holstein",
+    "ID_2": 41,
+    "NAME_2": "Schleswig-Holstein",
+    "ID_3": 401,
+    "NAME_3": "Kiel Städte",
+    "lat": 54.3325494720652,
+    "lng": 10.1305019304906
+  },
+  {
+    "ID_1": 15,
+    "NAME_1": "Schleswig-Holstein",
+    "ID_2": 41,
+    "NAME_2": "Schleswig-Holstein",
+    "ID_3": 402,
+    "NAME_3": "Lübeck Städte",
+    "lat": 53.8775384854415,
+    "lng": 10.726221561025
+  },
+  {
+    "ID_1": 15,
+    "NAME_1": "Schleswig-Holstein",
+    "ID_2": 41,
+    "NAME_2": "Schleswig-Holstein",
+    "ID_3": 403,
+    "NAME_3": "Lauenburg",
+    "lat": 53.5968509046384,
+    "lng": 10.6076504769899
+  },
+  {
+    "ID_1": 15,
+    "NAME_1": "Schleswig-Holstein",
+    "ID_2": 41,
+    "NAME_2": "Schleswig-Holstein",
+    "ID_3": 404,
+    "NAME_3": "Neumünster Städte",
+    "lat": 54.0883840733796,
+    "lng": 9.98374645602601
+  },
+  {
+    "ID_1": 15,
+    "NAME_1": "Schleswig-Holstein",
+    "ID_2": 41,
+    "NAME_2": "Schleswig-Holstein",
+    "ID_3": 405,
+    "NAME_3": "Nordfriesland",
+    "lat": 54.6105304420921,
+    "lng": 8.88558496373632
+  },
+  {
+    "ID_1": 15,
+    "NAME_1": "Schleswig-Holstein",
+    "ID_2": 41,
+    "NAME_2": "Schleswig-Holstein",
+    "ID_3": 406,
+    "NAME_3": "Ostholstein",
+    "lat": 54.1933712273403,
+    "lng": 10.820442934799
+  },
+  {
+    "ID_1": 15,
+    "NAME_1": "Schleswig-Holstein",
+    "ID_2": 41,
+    "NAME_2": "Schleswig-Holstein",
+    "ID_3": 407,
+    "NAME_3": "Pinneberg",
+    "lat": 53.7246510899617,
+    "lng": 9.729781936297
+  },
+  {
+    "ID_1": 15,
+    "NAME_1": "Schleswig-Holstein",
+    "ID_2": 41,
+    "NAME_2": "Schleswig-Holstein",
+    "ID_3": 408,
+    "NAME_3": "Plön",
+    "lat": 54.2463213954738,
+    "lng": 10.3619096017537
+  },
+  {
+    "ID_1": 15,
+    "NAME_1": "Schleswig-Holstein",
+    "ID_2": 41,
+    "NAME_2": "Schleswig-Holstein",
+    "ID_3": 409,
+    "NAME_3": "Rendsburg-Eckernförde",
+    "lat": 54.2929999557461,
+    "lng": 9.77923920683519
+  },
+  {
+    "ID_1": 15,
+    "NAME_1": "Schleswig-Holstein",
+    "ID_2": 41,
+    "NAME_2": "Schleswig-Holstein",
+    "ID_3": 410,
+    "NAME_3": "Schleswig-Flensburg",
+    "lat": 54.6250026938611,
+    "lng": 9.5017608231197
+  },
+  {
+    "ID_1": 15,
+    "NAME_1": "Schleswig-Holstein",
+    "ID_2": 41,
+    "NAME_2": "Schleswig-Holstein",
+    "ID_3": 411,
+    "NAME_3": "Segeberg",
+    "lat": 53.9269733907008,
+    "lng": 10.1414457199315
+  },
+  {
+    "ID_1": 15,
+    "NAME_1": "Schleswig-Holstein",
+    "ID_2": 41,
+    "NAME_2": "Schleswig-Holstein",
+    "ID_3": 412,
+    "NAME_3": "Steinburg",
+    "lat": 53.9305480919803,
+    "lng": 9.51163614957228
+  },
+  {
+    "ID_1": 15,
+    "NAME_1": "Schleswig-Holstein",
+    "ID_2": 41,
+    "NAME_2": "Schleswig-Holstein",
+    "ID_3": 413,
+    "NAME_3": "Stormarn",
+    "lat": 53.7283231879227,
+    "lng": 10.3376075381766
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 414,
+    "NAME_3": "Altenburger Land",
+    "lat": 50.9611072104462,
+    "lng": 12.4124369039453
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 415,
+    "NAME_3": "Eichsfeld",
+    "lat": 51.3824359572111,
+    "lng": 10.2570777972633
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 416,
+    "NAME_3": "Erfurt Städte",
+    "lat": 50.9813771361473,
+    "lng": 11.021291764145
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 417,
+    "NAME_3": "Gera Städte",
+    "lat": 50.8988256540396,
+    "lng": 12.0928976405629
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 418,
+    "NAME_3": "Gotha",
+    "lat": 50.9078021529201,
+    "lng": 10.696103897861
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 419,
+    "NAME_3": "Greiz",
+    "lat": 50.7528869364476,
+    "lng": 12.084027879225
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 420,
+    "NAME_3": "Hildburghausen",
+    "lat": 50.4303388864199,
+    "lng": 10.737221624062
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 421,
+    "NAME_3": "Ilm-Kreis",
+    "lat": 50.7356238607667,
+    "lng": 10.967331622749
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 422,
+    "NAME_3": "Jena Städte",
+    "lat": 50.926389089532,
+    "lng": 11.5912094974363
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 423,
+    "NAME_3": "Kyffhäuserkreis",
+    "lat": 51.3234920406251,
+    "lng": 10.9873375445517
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 424,
+    "NAME_3": "Nordhausen",
+    "lat": 51.500771995118,
+    "lng": 10.7345418663591
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 425,
+    "NAME_3": "Sömmerda",
+    "lat": 51.1572695672606,
+    "lng": 11.1566423905482
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 426,
+    "NAME_3": "Saale-Holzland",
+    "lat": 50.9065289256123,
+    "lng": 11.7365630002954
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 427,
+    "NAME_3": "Saale-Orla",
+    "lat": 50.5827910782258,
+    "lng": 11.7144335844325
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 428,
+    "NAME_3": "Saalfeld-Rudolstadt",
+    "lat": 50.6381122064704,
+    "lng": 11.3105961873874
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 429,
+    "NAME_3": "Schmalkalden-Meiningen",
+    "lat": 50.6288782745459,
+    "lng": 10.4075194702194
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 430,
+    "NAME_3": "Sonneberg",
+    "lat": 50.4126283837394,
+    "lng": 11.1338573958308
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 431,
+    "NAME_3": "Suhl Städte",
+    "lat": 50.608040556061,
+    "lng": 10.6906530816567
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 432,
+    "NAME_3": "Unstrut-Hainich",
+    "lat": 51.1823371776702,
+    "lng": 10.5550458340747
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 433,
+    "NAME_3": "Wartburgkreis",
+    "lat": 50.892624540694,
+    "lng": 10.2183344294329
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 434,
+    "NAME_3": "Weimar Städte",
+    "lat": 50.9778379058347,
+    "lng": 11.3202314816491
+  },
+  {
+    "ID_1": 16,
+    "NAME_1": "Thüringen",
+    "ID_2": 42,
+    "NAME_2": "Thüringen",
+    "ID_3": 435,
+    "NAME_3": "Weimarer Land",
+    "lat": 50.9729535557127,
+    "lng": 11.3758817635595
+  }
+]
