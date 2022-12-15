@@ -13,6 +13,8 @@ Weekly data: PM2.5, PM10, NO2
 Requirements
 + You need Leaflet version v1.0.0 or above.
 
+Demo
+![Screen-Recording-_15-12-2022-16-51-40_](https://user-images.githubusercontent.com/94603960/207906784-6c31f2b2-d7b9-44e1-9f76-b5ceac235d93.gif)
 
 Data Attribution
 + Current Air pollutant data in API from [Open WeatherMap API](https://openweathermap.org/api)
