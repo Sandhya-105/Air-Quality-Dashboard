@@ -50,11 +50,12 @@
     #viewButton {
       position: absolute;
       top: 50px;
-      right: 20px;
+      right: 30px;
       padding: 8px;
       z-index: 400;
       background: #27293d;
       color: rgb(242, 242, 246);
+      font: 14px Arial, Helvetica, sans-serif;
     }
 
     .legend {
@@ -94,16 +95,20 @@
       border-top: 16px groove #27293d;
       width: 100px;
       height: 100px;
-      position:absolute; /* screen size takes as spatial reference */
+      position: absolute;
+      /* screen size takes as spatial reference */
       bottom: 50%;
-      right:50%;
-      transform:translate(-50%,-50%); /* center position the container*/
-      display:none;
-      z-index:10000; /* when a layer is not shown after all, use z-index (the higher the index the frontal the layer comes) */
+      right: 50%;
+      transform: translate(-50%, -50%);
+      /* center position the container*/
+      display: none;
+      z-index: 10000;
+      /* when a layer is not shown after all, use z-index (the higher the index the frontal the layer comes) */
       animation: spin 2s linear infinite;
       /* spin animator name, 2s - time it takes to complete 1 cycle, linear - speed, infinite - continous spin */
     }
-/* keyframes is used to create animation, it takes values in %, 0 - animation start, 100 - animation end */
+
+    /* keyframes is used to create animation, it takes values in %, 0 - animation start, 100 - animation end */
     @keyframes spin {
       0% {
         transform: rotate(0deg);
@@ -113,6 +118,34 @@
         transform: rotate(360deg);
       }
     }
+
+    .card-category {
+      font: 12px Arial, Helvetica, sans-serif;
+    }
+
+    .card-body h6 {
+      font: 12px Arial, Helvetica, sans-serif;
+    }
+
+    .iconDetails {
+      height: 40px;
+      width: 40px;
+      float: left;
+    }
+
+    .container2 {
+      width: 100%;
+      height: auto;
+      padding: 0%;
+    }
+
+    .container2 h6 {
+      font: 12px Arial, Helvetica, sans-serif;
+    }
+
+    #footer {
+      font: 12px Arial, Helvetica, sans-serif;
+    } 
   </style>
 </head>
 
@@ -128,7 +161,7 @@
               <div class="card-header ">
                 <div class="row">
                   <div class="col-sm-6 text-left">
-                    <h4 class="card-category">Air Quality Germany</h4>
+                    <!-- <h4 class="card-category">Statewise Air Quality</h4> -->
                   </div>
                 </div>
                 <div class="card-body">
@@ -168,20 +201,60 @@
             <div class="row">
               <div class="card card-chart mb-0">
                 <div class="card-header">
-                  <h5 class="card-category">Air Quality</h5>
-                  <h3 class="card-title" id="aqi"></h3>
+                  <div class='container2'>
+                    <div>
+                      <img src='air-quality.png' class='iconDetails'>
+                    </div>
+                    <div style='margin-left:60px;'>
+                      <h6>Air Quality</h6>
+                      <div style="font-size:1em" id="aqi"></div>
+                    </div>
+                  </div>
                 </div>
-                <div class="card-body pl-5">
-                  <h6 class="pb-3">no2: <span id='no2'></span></h6>
-                  <h6 class="pb-3">pm2.5: <span id='pm2_5'></span></h6>
-                  <h6 class="pb-3">pm10: <span id='pm10'></span></h6>
-                  <h6 class="pb-3">Ground_level_ozone: <span id='ozone'></span></h6>
+                <div class="card-body text-center pb-1">
+                  <h6 id="state_name">Germany</h6><span id='dist_name'></span>
+                </div>
+              </div>
+            </div>
+            <div class="row pt-3">
+              <div class="col-6 pb-2">
+                <div class="card card-chart mb-0 h-100">
+                  <div class="card-body text-center">
+                    <h6 class="p-3">no2: <span id='no2'></span></h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 pb-2">
+                <div class="card card-chart mb-0 h-100">
+                  <div class="card-body text-center">
+                    <h6 class="p-3">pm2.5: <span id='pm2_5'></span></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row pt-2">
+              <div class="col-6 pt-1">
+                <div class="card card-chart mb-0 h-100">
+                  <div class="card-body text-center">
+                    <h6 class="p-3">pm10: <span id='pm10'></span></h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 pt-1">
+                <div class="card card-chart mb-0 h-100">
+                  <div class="card-body text-center">
+                    <h6 class="p-3">Ground_level_ozone: <span id='ozone'></span></h6>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <footer id='footer' class="text-right">
+        <a href="https://www.flaticon.com/free-icons/air-quality" title="air quality icons">Air quality icons created by
+          Paul J. - Flaticon</a>
+      </footer>
     </div>
   </div>
   <!--   Core JS Files   -->
@@ -198,6 +271,7 @@
   <script src="../assets/js/plugins/bootstrap-notify.js"></script>
   <!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="../assets/js/black-dashboard.min.js?v=1.0.0"></script>
+
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
   <script src="//cdn.amcharts.com/lib/4/core.js"></script>
@@ -305,14 +379,14 @@
       else if (response.list[0].components.pm10 < 180) pm10 = "Poor"
       else pm10 = "Very Poor"
       if (response.list[0].components.o3 < 60) ozone = "Good"
-      else if (response.list[0].components.o3 < 120) ozone ="Fair"
-      else if (response.list[0].components.o3 < 180) ozone ="Moderate"
-      else if (response.list[0].components.o3 < 240) ozone ="Poor"
+      else if (response.list[0].components.o3 < 120) ozone = "Fair"
+      else if (response.list[0].components.o3 < 180) ozone = "Moderate"
+      else if (response.list[0].components.o3 < 240) ozone = "Poor"
       else ozone = "Very Poor"
 
       let dict = { 'Good': '#09FF00', 'Fair': '#E6FF00', 'Moderate': '#FFB401', 'Poor': '#FF0101', 'Very Poor': '#FF0101' }
-      $('#no2').html("<span style='color:" + dict[no2] + "'>" + no2 + ' ' + '(' + response.list[0].components.no2+ ')' + "</span>") // if you want to select anything use jquery $ function name 
-      $('#pm2_5').html("<span style='color:" + dict[pm2_5] + "'>" + pm2_5 + "</span>"+ '(' + response.list[0].components.pm2_5 + ')')
+      $('#no2').html("<span style='color:" + dict[no2] + "'>" + no2 + "</span>" + '(' + response.list[0].components.no2 + ')') // if you want to select anything use jquery $ function name 
+      $('#pm2_5').html("<span style='color:" + dict[pm2_5] + "'>" + pm2_5 + "</span>" + '(' + response.list[0].components.pm2_5 + ')')
       $('#pm10').html("<span style='color:" + dict[pm10] + "'>" + pm10 + "</span>" + '(' + response.list[0].components.pm10 + ')')
       $('#ozone').html("<span style='color:" + dict[ozone] + "'>" + ozone + "</span>" + '(' + response.list[0].components.o3 + ')')
 
@@ -323,7 +397,7 @@
       lng = e.latlng.lng;
       api_calling();
       api_labels_calling();
-      
+
     })
   </script>
 
@@ -391,7 +465,7 @@
       // ADDING HIGHLIGHTED POLYGONS IN MAP SECTION 
       function onEachFeature(feature, layer) { // feature (geojson property) , layer - whole geojson
         layer.on({
-          mouseover: highlightFeature,
+          mouseover: highlightFeature, // everything passes e
           mouseout: resetHighlight,
           click: zoomToFeature, // click is the event that calls the function 
         });
@@ -422,6 +496,10 @@
           map.fitBounds(e.target.getBounds());
           $('.loader').show();
           town_aqi(e.target.feature.properties.ID_1);
+          $('#state_name').html(e.target.feature.properties.NAME_1);
+          console.log(e.target.feature.properties)
+          // $('#dist_name').html()
+
           iszoomedin = true;
         }
       }
@@ -443,7 +521,7 @@
         const distboundary_json = await url_response(`${ID_1}.geojson`) // ${} use pananu na - you have to use ``
         dist_geojson = L.geoJson(distboundary_json, {
           style: style2,
-          // onEachFeature: onEachFeature // call back function (azhaya viruthali) we don't want this here
+          onEachFeature: onEachFeature2, // call back function (azhaya viruthali) we don't want this here
         });
 
         dist_geojson.addTo(map); // L.geojson creates geojson from geojson variable because leaflet doesn't know that the variable is geojson
@@ -473,6 +551,14 @@
               x < 5 ? '#FF0101' :
                 '#FF0101';
       };
+
+      function onEachFeature2(feature, layer) { // feature (geojson property) , layer - whole geojson
+        layer.on({ // on - event listener
+          click: function (e) {
+            $('#dist_name').html(e.target.feature.properties.NAME_3)   // click pass e here (click is the event)
+          }
+        });
+      }
     }
     choropleth_map()
 
