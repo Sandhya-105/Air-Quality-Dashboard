@@ -19,8 +19,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <!-- <link rel="icon" type="image/png" href="../assets/img/favicon.png"> <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">-->
   <title>
     Air Quality Dashboard
   </title>
@@ -32,7 +31,6 @@
   <!-- CSS Files -->
   <link href="../assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="../assets/demo/demo.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css">
 
   <style>
@@ -177,6 +175,7 @@
                   <h6 class="pb-3">no2: <span id='no2'></span></h6>
                   <h6 class="pb-3">pm2.5: <span id='pm2_5'></span></h6>
                   <h6 class="pb-3">pm10: <span id='pm10'></span></h6>
+                  <h6 class="pb-3">Ground_level_ozone: <span id='ozone'></span></h6>
                 </div>
               </div>
             </div>
@@ -199,8 +198,6 @@
   <script src="../assets/js/plugins/bootstrap-notify.js"></script>
   <!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="../assets/js/black-dashboard.min.js?v=1.0.0"></script>
-  <!-- Black Dashboard DEMO methods, don't include it in your project! -->
-  <script src="../assets/demo/demo.js"></script>
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
   <script src="//cdn.amcharts.com/lib/4/core.js"></script>
@@ -290,7 +287,7 @@
       else temp = "Very Poor"
       $('#aqi').text(temp)
 
-      let no2 = "", pm2_5 = "", pm10 = "";
+      let no2 = "", pm2_5 = "", pm10 = "", ozone = "";
 
       if (response.list[0].components.no2 < 50) no2 = "Good"
       else if (response.list[0].components.no2 < 100) no2 = "Fair"
@@ -307,11 +304,17 @@
       else if (response.list[0].components.pm10 < 90) pm10 = "Moderate"
       else if (response.list[0].components.pm10 < 180) pm10 = "Poor"
       else pm10 = "Very Poor"
+      if (response.list[0].components.o3 < 60) ozone = "Good"
+      else if (response.list[0].components.o3 < 120) ozone ="Fair"
+      else if (response.list[0].components.o3 < 180) ozone ="Moderate"
+      else if (response.list[0].components.o3 < 240) ozone ="Poor"
+      else ozone = "Very Poor"
 
       let dict = { 'Good': '#09FF00', 'Fair': '#E6FF00', 'Moderate': '#FFB401', 'Poor': '#FF0101', 'Very Poor': '#FF0101' }
-      $('#no2').html("<span style='color:" + dict[no2] + "'>" + no2 + "</span>") // if you want to select anything use jquery $ function name 
-      $('#pm2_5').html("<span style='color:" + dict[pm2_5] + "'>" + pm2_5 + "</span>")
-      $('#pm10').html("<span style='color:" + dict[pm10] + "'>" + pm10 + "</span>")
+      $('#no2').html("<span style='color:" + dict[no2] + "'>" + no2 + ' ' + '(' + response.list[0].components.no2+ ')' + "</span>") // if you want to select anything use jquery $ function name 
+      $('#pm2_5').html("<span style='color:" + dict[pm2_5] + "'>" + pm2_5 + "</span>"+ '(' + response.list[0].components.pm2_5 + ')')
+      $('#pm10').html("<span style='color:" + dict[pm10] + "'>" + pm10 + "</span>" + '(' + response.list[0].components.pm10 + ')')
+      $('#ozone').html("<span style='color:" + dict[ozone] + "'>" + ozone + "</span>" + '(' + response.list[0].components.o3 + ')')
 
     }
 
